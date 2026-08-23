@@ -93,7 +93,11 @@ This is a design decision, not a tuned value — acknowledged in §\ref{sec:futu
 
 \paragraph{Guarantees.}
 P1 and P2 hold by construction (agglomerative tree + \texttt{fcluster(maxclust)}).
-P4 holds by construction (\texttt{hyperedge\_collapse.py} runs at every level).
+The T4 collapse rule holds by construction (\texttt{hyperedge\_collapse.py} coarsens
+hyper-edges as single units at every level).
+The structural affinity in Eq.~\ref{eq:affinity} uses arity-normalised
+co-membership ($|M(e)|^{-1}$), which dampens large edges without eliminating
+their pairwise co-occurrence signal; it is not a full clique expansion.
 P3, P5, P6 are empirically verified in §\ref{sec:eval}.
 
 \paragraph{Rejected alternative.}
