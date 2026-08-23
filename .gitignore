@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+outputs/cache/
+.env
+
+# TKH data files — not redistributed (provided by CKL)
+data/tkh_collection10.json
+data/questions.csv
+data/ground_truth.json
+data/collection10_articles.csv

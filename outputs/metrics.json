@@ -1,0 +1,3038 @@
+{
+  "coherence": {
+    "2020": {
+      "0": {
+        "intra_sim": 0.245,
+        "inter_sim": 0.1724,
+        "separation": 0.0726,
+        "n_clusters": 12,
+        "n_nodes": 1527,
+        "null_separation_mean": -0.0002,
+        "null_separation_std": 0.0012,
+        "n_shuffles": 50,
+        "z_above_null": 60.67
+      },
+      "1": {
+        "intra_sim": 0.3418,
+        "inter_sim": 0.1772,
+        "separation": 0.1646,
+        "n_clusters": 60,
+        "n_nodes": 1527,
+        "null_separation_mean": -0.0001,
+        "null_separation_std": 0.0016,
+        "n_shuffles": 50,
+        "z_above_null": 102.94
+      }
+    },
+    "2022": {
+      "0": {
+        "intra_sim": 0.2454,
+        "inter_sim": 0.1744,
+        "separation": 0.0709,
+        "n_clusters": 12,
+        "n_nodes": 2200,
+        "null_separation_mean": -0.0,
+        "null_separation_std": 0.001,
+        "n_shuffles": 50,
+        "z_above_null": 70.9
+      },
+      "1": {
+        "intra_sim": 0.3298,
+        "inter_sim": 0.1803,
+        "separation": 0.1495,
+        "n_clusters": 60,
+        "n_nodes": 2200,
+        "null_separation_mean": -0.0001,
+        "null_separation_std": 0.0009,
+        "n_shuffles": 50,
+        "z_above_null": 166.22
+      }
+    },
+    "2024": {
+      "0": {
+        "intra_sim": 0.2438,
+        "inter_sim": 0.1778,
+        "separation": 0.066,
+        "n_clusters": 12,
+        "n_nodes": 4184,
+        "null_separation_mean": 0.0001,
+        "null_separation_std": 0.001,
+        "n_shuffles": 50,
+        "z_above_null": 65.9
+      },
+      "1": {
+        "intra_sim": 0.3114,
+        "inter_sim": 0.1833,
+        "separation": 0.1281,
+        "n_clusters": 60,
+        "n_nodes": 4184,
+        "null_separation_mean": -0.0,
+        "null_separation_std": 0.0007,
+        "n_shuffles": 50,
+        "z_above_null": 183.0
+      }
+    },
+    "2026": {
+      "0": {
+        "intra_sim": 0.2418,
+        "inter_sim": 0.1789,
+        "separation": 0.0629,
+        "n_clusters": 12,
+        "n_nodes": 5798,
+        "null_separation_mean": -0.0002,
+        "null_separation_std": 0.0008,
+        "n_shuffles": 50,
+        "z_above_null": 78.87
+      },
+      "1": {
+        "intra_sim": 0.3057,
+        "inter_sim": 0.1841,
+        "separation": 0.1216,
+        "n_clusters": 60,
+        "n_nodes": 5798,
+        "null_separation_mean": 0.0,
+        "null_separation_std": 0.0005,
+        "n_shuffles": 50,
+        "z_above_null": 243.2
+      }
+    }
+  },
+  "stability": {
+    "perturbation": {
+      "2020": {
+        "0": {
+          "level": 0,
+          "snapshot_year": 2020,
+          "remove_frac": 0.1,
+          "seeds": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "ari_per_seed": [
+            0.4988,
+            0.9957,
+            0.9886,
+            0.5959,
+            0.9978
+          ],
+          "ari_mean": 0.8153,
+          "ari_std": 0.2471,
+          "ari_95ci": [
+            0.5085,
+            1.1222
+          ]
+        },
+        "1": {
+          "level": 1,
+          "snapshot_year": 2020,
+          "remove_frac": 0.1,
+          "seeds": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "ari_per_seed": [
+            0.7478,
+            0.971,
+            0.9438,
+            0.7649,
+            0.9715
+          ],
+          "ari_mean": 0.8798,
+          "ari_std": 0.1134,
+          "ari_95ci": [
+            0.7389,
+            1.0207
+          ]
+        }
+      },
+      "2022": {
+        "0": {
+          "level": 0,
+          "snapshot_year": 2022,
+          "remove_frac": 0.1,
+          "seeds": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "ari_per_seed": [
+            0.5551,
+            0.672,
+            0.9224,
+            0.5621,
+            0.5393
+          ],
+          "ari_mean": 0.6502,
+          "ari_std": 0.161,
+          "ari_95ci": [
+            0.4503,
+            0.8501
+          ]
+        },
+        "1": {
+          "level": 1,
+          "snapshot_year": 2022,
+          "remove_frac": 0.1,
+          "seeds": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "ari_per_seed": [
+            0.6973,
+            0.8245,
+            0.9411,
+            0.8085,
+            0.7062
+          ],
+          "ari_mean": 0.7955,
+          "ari_std": 0.0998,
+          "ari_95ci": [
+            0.6716,
+            0.9194
+          ]
+        }
+      },
+      "2024": {
+        "0": {
+          "level": 0,
+          "snapshot_year": 2024,
+          "remove_frac": 0.1,
+          "seeds": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "ari_per_seed": [
+            0.4164,
+            0.8106,
+            1.0,
+            0.4711,
+            0.5806
+          ],
+          "ari_mean": 0.6557,
+          "ari_std": 0.2447,
+          "ari_95ci": [
+            0.3519,
+            0.9596
+          ]
+        },
+        "1": {
+          "level": 1,
+          "snapshot_year": 2024,
+          "remove_frac": 0.1,
+          "seeds": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "ari_per_seed": [
+            0.654,
+            0.9311,
+            1.0,
+            0.7468,
+            0.7323
+          ],
+          "ari_mean": 0.8128,
+          "ari_std": 0.1458,
+          "ari_95ci": [
+            0.6318,
+            0.9939
+          ]
+        }
+      },
+      "2026": {
+        "0": {
+          "level": 0,
+          "snapshot_year": 2026,
+          "remove_frac": 0.1,
+          "seeds": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "ari_per_seed": [
+            0.6404,
+            0.6812,
+            0.6888,
+            0.6228,
+            0.7007
+          ],
+          "ari_mean": 0.6668,
+          "ari_std": 0.0334,
+          "ari_95ci": [
+            0.6253,
+            0.7083
+          ]
+        },
+        "1": {
+          "level": 1,
+          "snapshot_year": 2026,
+          "remove_frac": 0.1,
+          "seeds": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "ari_per_seed": [
+            0.7259,
+            0.7479,
+            0.8155,
+            0.8172,
+            0.791
+          ],
+          "ari_mean": 0.7795,
+          "ari_std": 0.041,
+          "ari_95ci": [
+            0.7286,
+            0.8304
+          ]
+        }
+      }
+    },
+    "cross_snapshot": {
+      "0": [
+        {
+          "year_from": 2020,
+          "year_to": 2022,
+          "level": 0,
+          "n_shared_nodes": 1527,
+          "ari": 0.2896
+        },
+        {
+          "year_from": 2022,
+          "year_to": 2024,
+          "level": 0,
+          "n_shared_nodes": 2200,
+          "ari": 0.2993
+        },
+        {
+          "year_from": 2024,
+          "year_to": 2026,
+          "level": 0,
+          "n_shared_nodes": 4184,
+          "ari": 0.3559
+        }
+      ],
+      "1": [
+        {
+          "year_from": 2020,
+          "year_to": 2022,
+          "level": 1,
+          "n_shared_nodes": 1527,
+          "ari": 0.4127
+        },
+        {
+          "year_from": 2022,
+          "year_to": 2024,
+          "level": 1,
+          "n_shared_nodes": 2200,
+          "ari": 0.3301
+        },
+        {
+          "year_from": 2024,
+          "year_to": 2026,
+          "level": 1,
+          "n_shared_nodes": 4184,
+          "ari": 0.3837
+        }
+      ]
+    }
+  },
+  "faithfulness": {
+    "2020": {
+      "snapshot_year": 2020,
+      "total_evaluated": 72,
+      "counts": {
+        "supported": 68,
+        "vague": 3,
+        "overclaim": 1
+      },
+      "overclaim_rate": 0.014,
+      "supported_rate": 0.944,
+      "details": [
+        {
+          "supernode_id": "sn_y2020_l0_c0003",
+          "level": 0,
+          "label": "Machine Learning for Quantum Chemistry",
+          "gloss": "This group encompasses neural network approaches for predicting material properties in quantum chemistry.",
+          "verdict": "supported",
+          "reason": "The items listed include various neural network approaches specifically designed for predicting material properties in quantum chemistry, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2020_l0_c0012",
+          "level": 0,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group focuses on machine learning applications for predicting material properties and behaviors.",
+          "verdict": "supported",
+          "reason": "All items listed pertain to machine learning applications in predicting material properties and behaviors, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2020_l0_c0006",
+          "level": 0,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group encompasses methods and models for predicting material properties using machine learning techniques.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific machine learning methods and models used for predicting material properties, aligning with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2020_l0_c0007",
+          "level": 0,
+          "label": "Data-Driven Materials Discovery",
+          "gloss": "This group encompasses frameworks and databases for accelerating materials design and property prediction using computational methods.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of frameworks and databases that utilize computational methods for materials design and property prediction, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l0_c0008",
+          "level": 0,
+          "label": "Machine Learning Interatomic Potentials",
+          "gloss": "This group covers various machine learning approaches for developing interatomic potentials and their applications.",
+          "verdict": "supported",
+          "reason": "The items listed include various machine learning approaches and their applications in developing interatomic potentials, which aligns with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2020_l0_c0011",
+          "level": 0,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group focuses on machine learning applications for simulating and screening materials properties and stability.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning applications and high-throughput screening in materials science, directly supporting the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l0_c0004",
+          "level": 0,
+          "label": "Automated Materials Property Prediction",
+          "gloss": "A framework for benchmarking and automating materials property prediction using machine learning techniques.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific details about benchmarking and automating materials property prediction using machine learning techniques, aligning with the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l0_c0009",
+          "level": 0,
+          "label": "Machine Learning in Amorphous Carbon",
+          "gloss": "This group focuses on machine learning applications for modeling and simulating amorphous carbon structures.",
+          "verdict": "supported",
+          "reason": "All items listed pertain to machine learning applications and modeling of amorphous carbon structures, directly supporting the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l0_c0010",
+          "level": 0,
+          "label": "High-Throughput DFT and Databases",
+          "gloss": "This group encompasses standards, workflows, and databases for high-throughput DFT calculations in materials science.",
+          "verdict": "supported",
+          "reason": "All claims in the gloss regarding standards, workflows, and databases for high-throughput DFT calculations are directly supported by the items listed."
+        },
+        {
+          "supernode_id": "sn_y2020_l0_c0001",
+          "level": 0,
+          "label": "Materials Science and Machine Learning Researchers",
+          "gloss": "This group consists of prominent researchers in materials science and machine learning.",
+          "verdict": "supported",
+          "reason": "All listed individuals are recognized researchers in the fields of materials science and machine learning."
+        },
+        {
+          "supernode_id": "sn_y2020_l0_c0002",
+          "level": 0,
+          "label": "Materials Science and Machine Learning",
+          "gloss": "This group includes researchers, software, and methods in materials science and machine learning.",
+          "verdict": "supported",
+          "reason": "The items listed include researchers and various software and methods relevant to materials science and machine learning."
+        },
+        {
+          "supernode_id": "sn_y2020_l0_c0005",
+          "level": 0,
+          "label": "SOAP Descriptors and Variants",
+          "gloss": "This group encompasses various types of SOAP descriptors and their combinations in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed include various types of SOAP descriptors and their combinations, which directly align with the description provided in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0015",
+          "level": 1,
+          "label": "Message Passing Neural Networks",
+          "gloss": "This group focuses on advancements in message passing neural networks for quantum chemistry applications.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific advancements and applications of message passing neural networks in quantum chemistry, aligning with the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0012",
+          "level": 1,
+          "label": "SchNet and MEGNet Models",
+          "gloss": "Comparative analysis of SchNet and MEGNet in predicting molecular properties and energies.",
+          "verdict": "supported",
+          "reason": "The items provide detailed comparisons of SchNet and MEGNet, including their performance metrics and capabilities in predicting molecular properties and energies."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0056",
+          "level": 1,
+          "label": "DeePMD and Molecular Dynamics",
+          "gloss": "This group covers DeePMD's applications and performance in molecular dynamics simulations.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples and evidence of DeePMD's applications and performance in molecular dynamics simulations."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0011",
+          "level": 1,
+          "label": "Graph Neural Networks in Materials Science",
+          "gloss": "This group focuses on graph neural networks for predicting material properties and molecular characteristics.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples and evidence of how graph neural networks are used for predicting material properties and molecular characteristics."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0025",
+          "level": 1,
+          "label": "Atomic Cluster Expansion Techniques",
+          "gloss": "Methods for modeling atomic properties using cluster expansions with various degrees of freedom.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific methods and concepts related to atomic cluster expansion techniques, including various degrees of freedom such as scalar, vectorial, tensorial properties, magnetism, and charge transfer."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0038",
+          "level": 1,
+          "label": "Data-Driven Materials Design Frameworks",
+          "gloss": "This group encompasses various platforms and databases for accelerated materials discovery and property prediction.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of platforms and databases that facilitate accelerated materials discovery and property prediction, aligning with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0042",
+          "level": 1,
+          "label": "Machine Learning Interatomic Potentials for Silicon",
+          "gloss": "This group focuses on various machine learning approaches to develop interatomic potentials for silicon.",
+          "verdict": "supported",
+          "reason": "The items listed include various machine learning approaches and specific methods for developing interatomic potentials for silicon, which aligns with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0055",
+          "level": 1,
+          "label": "Deep Learning for Fracture Prediction",
+          "gloss": "This group focuses on using ConvLSTM models to predict fracture patterns and toughness in crystalline solids.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific details about the use of ConvLSTM models for predicting fracture patterns and toughness in crystalline solids, aligning with the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0051",
+          "level": 1,
+          "label": "Ionic Diffusion Modeling and Prediction",
+          "gloss": "This group focuses on modeling and predicting ionic diffusion properties in solid-state electrolytes using neural networks.",
+          "verdict": "supported",
+          "reason": "The items listed directly relate to modeling and predicting ionic diffusion properties in solid-state electrolytes using neural networks."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0017",
+          "level": 1,
+          "label": "Automatminer and Matbench Benchmarking",
+          "gloss": "Overview of Automatminer performance and presets in materials property prediction using Matbench.",
+          "verdict": "supported",
+          "reason": "The items provide specific details about Automatminer\u2019s performance, presets, and benchmarking against Matbench, directly supporting the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0044",
+          "level": 1,
+          "label": "Machine Learning in Amorphous Carbon",
+          "gloss": "This group focuses on machine learning applications for modeling and simulating amorphous carbon structures.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning applications and their effectiveness in modeling and simulating amorphous carbon structures."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0045",
+          "level": 1,
+          "label": "AFLOW High-Throughput DFT Framework",
+          "gloss": "A standardized system for conducting and managing high-throughput DFT calculations in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed provide detailed information about the AFLOW framework, its standards, workflows, and capabilities in managing high-throughput DFT calculations, which aligns with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0001",
+          "level": 1,
+          "label": "Materials Science Researchers",
+          "gloss": "A group of researchers contributing to materials science and machine learning literature.",
+          "verdict": "vague",
+          "reason": "The gloss mentions contributions to materials science and machine learning literature, but it does not specify the nature or extent of these contributions, making it difficult to verify."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0008",
+          "level": 1,
+          "label": "Materials Science and Machine Learning",
+          "gloss": "This group includes researchers, models, potentials, and materials relevant to computational materials science.",
+          "verdict": "supported",
+          "reason": "The items listed include researchers, models, and materials relevant to computational materials science, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0002",
+          "level": 1,
+          "label": "Materials Science Researchers",
+          "gloss": "This group consists of prominent researchers in materials science and machine learning.",
+          "verdict": "supported",
+          "reason": "All listed researchers are prominent figures in materials science and have contributions related to machine learning."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0016",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group encompasses neural network architectures and techniques applied to materials science data analysis.",
+          "verdict": "supported",
+          "reason": "The items listed include various neural network architectures and techniques that are applicable to materials science data analysis, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0010",
+          "level": 1,
+          "label": "Computational Materials Science Tools",
+          "gloss": "This group includes software and methods for computational materials science and machine learning applications.",
+          "verdict": "supported",
+          "reason": "All items listed are relevant tools and methods used in computational materials science and machine learning applications."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0009",
+          "level": 1,
+          "label": "Computational Materials Science Tools",
+          "gloss": "This group includes software and databases for materials modeling and machine learning applications.",
+          "verdict": "supported",
+          "reason": "All items listed are relevant tools, software, or databases used for materials modeling and machine learning applications in computational materials science."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0032",
+          "level": 1,
+          "label": "Interaction Networks and Master Nodes",
+          "gloss": "This group focuses on interaction networks, master nodes, and their role in atomic representations and potentials.",
+          "verdict": "supported",
+          "reason": "The items listed directly relate to interaction networks and master nodes, including their roles in atomic representations and potentials."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0006",
+          "level": 1,
+          "label": "Set2Set and Solid Electrolytes",
+          "gloss": "This group includes Set2Set methods and various solid electrolyte materials.",
+          "verdict": "supported",
+          "reason": "The items listed include multiple references to Set2Set methods and a variety of solid electrolyte materials, confirming the claims in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0007",
+          "level": 1,
+          "label": "Machine Learning and Computational Methods",
+          "gloss": "This group includes various algorithms and methods used in materials science and machine learning.",
+          "verdict": "overclaim",
+          "reason": "The gloss implies that all items are algorithms and methods used in materials science and machine learning, but some items like LDA+U and GW@LDA+U are specific to electronic structure calculations rather than general machine learning."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0029",
+          "level": 1,
+          "label": "Kernel Methods and Optimization Techniques",
+          "gloss": "This group encompasses various kernel methods and optimization techniques in machine learning and materials science.",
+          "verdict": "supported",
+          "reason": "The items listed include various kernel methods and optimization techniques relevant to machine learning and materials science."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0013",
+          "level": 1,
+          "label": "Behler-Parrinello Neural Networks",
+          "gloss": "A group of neural network potentials based on the Behler-Parrinello framework.",
+          "verdict": "supported",
+          "reason": "The items listed directly reference the Behler-Parrinello neural network and its potential, aligning with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0048",
+          "level": 1,
+          "label": "Band Gap Prediction Methods",
+          "gloss": "This group encompasses techniques and features for predicting band gaps in materials.",
+          "verdict": "supported",
+          "reason": "The items listed include various methods and features related to predicting band gaps in materials, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0023",
+          "level": 1,
+          "label": "SOAP Descriptors and Kernels",
+          "gloss": "This group encompasses various aspects of SOAP descriptors and their construction, including sparse points and kernels.",
+          "verdict": "supported",
+          "reason": "The items listed directly reference SOAP descriptors, their construction, and the concept of sparse points and kernels, which aligns with the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0054",
+          "level": 1,
+          "label": "DFT+U and Related Methods",
+          "gloss": "This group encompasses various DFT+U methodologies and their applications in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed include various DFT+U methodologies and their applications, which align with the gloss describing the group."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0027",
+          "level": 1,
+          "label": "Materials Science and Machine Learning Techniques",
+          "gloss": "This group encompasses methods and models for predicting elastic properties and optimizing parameters in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed include various methods and models related to predicting elastic properties and optimizing parameters in materials science."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0035",
+          "level": 1,
+          "label": "Uncertainty Quantification and Error Management",
+          "gloss": "This group focuses on methods for uncertainty quantification and error handling in computational materials science.",
+          "verdict": "supported",
+          "reason": "The items listed include various methods and systems for uncertainty quantification and error management, directly aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0018",
+          "level": 1,
+          "label": "Matbench and Matminer Overview",
+          "gloss": "This group covers Matbench benchmark suite and Matminer tools for materials property prediction using machine learning.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific details about Matbench and Matminer, including their functions and tasks related to materials property prediction using machine learning."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0022",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group focuses on machine learning techniques for property prediction and feature selection in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed include various machine learning techniques and models relevant to property prediction and feature selection in materials science."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0050",
+          "level": 1,
+          "label": "High-Throughput Screening in Battery Materials",
+          "gloss": "This group focuses on high-throughput screening and design of materials for Li-ion batteries and related applications.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of high-throughput screening and design of materials relevant to Li-ion batteries and related applications."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0014",
+          "level": 1,
+          "label": "CGCNN Performance and Applications",
+          "gloss": "CGCNN demonstrates high accuracy in predicting material properties and classifying materials.",
+          "verdict": "supported",
+          "reason": "The items provide specific metrics and results demonstrating CGCNN's high accuracy in predicting material properties and classifying materials."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0058",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group focuses on machine learning applications for predicting and validating materials properties and compound stability.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning applications in predicting and validating materials properties and compound stability, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0003",
+          "level": 1,
+          "label": "Organic Compounds and MD-17 Models",
+          "gloss": "This group includes organic compounds and their corresponding MD-17 molecular dynamics models.",
+          "verdict": "supported",
+          "reason": "All listed items include organic compounds and their corresponding MD-17 molecular dynamics models."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0030",
+          "level": 1,
+          "label": "Cage Detection and Optimization Techniques",
+          "gloss": "This group encompasses algorithms and methods for identifying and optimizing interstitial cages in materials.",
+          "verdict": "supported",
+          "reason": "The items listed include specific algorithms and methods that are directly related to identifying and optimizing interstitial cages in materials."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0043",
+          "level": 1,
+          "label": "Surface Energy and Reconstruction Models",
+          "gloss": "This group focuses on modeling and calculating surface energies and reconstructions using various computational techniques.",
+          "verdict": "supported",
+          "reason": "The items listed provide various computational techniques and models related to surface energies and reconstructions, directly supporting the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0060",
+          "level": 1,
+          "label": "GAP Model Performance and Insights",
+          "gloss": "The GAP model achieves high accuracy in predicting material properties and defect energetics compared to DFT.",
+          "verdict": "supported",
+          "reason": "The items provide specific evidence of the GAP model's high accuracy in predicting material properties and defect energetics compared to DFT."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0059",
+          "level": 1,
+          "label": "Crystal Representation and Prediction",
+          "gloss": "This group focuses on methods for representing and predicting properties of crystal structures using machine learning.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific methods and approaches for representing and predicting properties of crystal structures using machine learning, aligning well with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0046",
+          "level": 1,
+          "label": "JARVIS Databases and DFT Methods",
+          "gloss": "This group encompasses JARVIS databases, DFT methods, and their computational efficiencies and comparisons.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific details about JARVIS databases, DFT methods, and their computational efficiencies, confirming the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0034",
+          "level": 1,
+          "label": "High-Throughput Materials Screening",
+          "gloss": "This group focuses on methodologies and benchmarks for efficient materials screening using machine learning and computational techniques.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific methodologies, benchmarks, and challenges related to high-throughput materials screening using machine learning and computational techniques."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0039",
+          "level": 1,
+          "label": "Force Field Learning and Prediction",
+          "gloss": "This group focuses on machine learning techniques for predicting forces, energies, and properties in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning techniques and applications related to predicting forces, energies, and properties in materials science, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0049",
+          "level": 1,
+          "label": "Electronic Structure Calculations",
+          "gloss": "This group encompasses methods and parameters for calculating electronic structures in materials science.",
+          "verdict": "supported",
+          "reason": "All items listed pertain to methods and parameters used for calculating electronic structures in materials science, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0005",
+          "level": 1,
+          "label": "JARVIS Data and Tools Ecosystem",
+          "gloss": "A collection of JARVIS data, workflows, and tools for materials science and machine learning.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific tools, workflows, and data related to the JARVIS ecosystem, aligning with the description in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0040",
+          "level": 1,
+          "label": "Convergence Criteria and Thermostats",
+          "gloss": "This group covers convergence criteria and temperature control methods in materials science simulations.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific convergence criteria and mention various temperature control methods, directly aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0020",
+          "level": 1,
+          "label": "Automated Machine Learning in Materials Science",
+          "gloss": "This group focuses on automated pipelines and techniques for machine learning applications in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed include various automated techniques and pipelines relevant to machine learning applications in materials science, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0021",
+          "level": 1,
+          "label": "Cross-Validation Techniques",
+          "gloss": "This group encompasses various methods for evaluating machine learning models through cross-validation.",
+          "verdict": "supported",
+          "reason": "The items listed include various cross-validation techniques that align with the description of evaluating machine learning models through cross-validation."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0052",
+          "level": 1,
+          "label": "Solid-State Electrolytes and LPSO Stability",
+          "gloss": "Research on solid-state electrolytes and the stability of LPSO phases in Mg alloys.",
+          "verdict": "supported",
+          "reason": "The items provide specific evidence regarding the stability of LPSO phases in Mg alloys and the behavior of solid-state electrolytes, aligning with the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0041",
+          "level": 1,
+          "label": "Activation Energy and Energy Prediction",
+          "gloss": "This group focuses on activation energy computations and various energy prediction methods in materials science.",
+          "verdict": "vague",
+          "reason": "While the items include various methods related to energy prediction and activation energy, the gloss does not specify which methods are used for activation energy computations or how they relate to materials science."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0019",
+          "level": 1,
+          "label": "Training Protocols and Workflows",
+          "gloss": "This group encompasses various methodologies for training machine learning models in materials science.",
+          "verdict": "supported",
+          "reason": "All items listed pertain to various methodologies and workflows for training machine learning models in materials science."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0036",
+          "level": 1,
+          "label": "Phase Space and K-Point Sampling",
+          "gloss": "This group focuses on various methods for sampling phase space and k-point convergence in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific methods and protocols for sampling phase space and k-point convergence, aligning well with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0053",
+          "level": 1,
+          "label": "Melt-Quench Simulations of Water and Ice",
+          "gloss": "This group focuses on melt-quench simulations and molecular dynamics of liquid water and ice.",
+          "verdict": "supported",
+          "reason": "The items listed directly relate to melt-quench simulations and molecular dynamics of liquid water and ice, supporting the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0028",
+          "level": 1,
+          "label": "Adaptive Loss Functions and Weighting",
+          "gloss": "This group focuses on various adaptive loss functions and weighting strategies in machine learning for materials science.",
+          "verdict": "supported",
+          "reason": "The items listed directly relate to adaptive loss functions and weighting strategies in machine learning, specifically in the context of materials science."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0047",
+          "level": 1,
+          "label": "Phonon and Vibrational Property Methods",
+          "gloss": "This group encompasses methods and libraries for predicting and analyzing phonon properties and vibrational thermodynamics.",
+          "verdict": "supported",
+          "reason": "The items listed directly relate to methods and libraries for predicting and analyzing phonon properties and vibrational thermodynamics."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0057",
+          "level": 1,
+          "label": "Machine Learning in Atomistic Simulations",
+          "gloss": "This group encompasses methods and techniques for atomistic simulations using machine learning approaches.",
+          "verdict": "supported",
+          "reason": "The items listed include various machine learning methods and techniques that are applicable to atomistic simulations, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0031",
+          "level": 1,
+          "label": "Web-Based Workflow Automation Tools",
+          "gloss": "This group encompasses tools and methods for automating workflows in web applications and databases.",
+          "verdict": "vague",
+          "reason": "The gloss describes a broad concept of workflow automation without specific details that can be directly verified by the listed items."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0037",
+          "level": 1,
+          "label": "Materials Analysis and Testing Techniques",
+          "gloss": "This group encompasses various methods for analyzing and testing material properties and structures.",
+          "verdict": "supported",
+          "reason": "The items listed include various methods and analyses that are relevant to the testing and analysis of material properties and structures."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0026",
+          "level": 1,
+          "label": "Stability Analysis and Visualization",
+          "gloss": "This group focuses on methods for assessing and visualizing material stability across compositional spaces.",
+          "verdict": "supported",
+          "reason": "All items listed pertain to methods for assessing and visualizing material stability across compositional spaces."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0033",
+          "level": 1,
+          "label": "Featurizers for Material Properties",
+          "gloss": "This group includes various featurizers for extracting material properties in computational models.",
+          "verdict": "supported",
+          "reason": "All items listed are specific featurizers or related concepts that can be used to extract material properties in computational models."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0024",
+          "level": 1,
+          "label": "Descriptors in Materials Science",
+          "gloss": "This group includes various types of structural descriptors for materials modeling.",
+          "verdict": "supported",
+          "reason": "All items listed are types of structural descriptors used in materials modeling, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2020_l1_c0004",
+          "level": 1,
+          "label": "MAE and ROC-AUC Metrics",
+          "gloss": "This group includes various metrics related to Mean Absolute Error and ROC-AUC evaluations.",
+          "verdict": "supported",
+          "reason": "All items listed are related to Mean Absolute Error (MAE) and ROC-AUC metrics, confirming the claims made in the gloss."
+        }
+      ]
+    },
+    "2022": {
+      "snapshot_year": 2022,
+      "total_evaluated": 72,
+      "counts": {
+        "supported": 67,
+        "vague": 3,
+        "overclaim": 2
+      },
+      "overclaim_rate": 0.028,
+      "supported_rate": 0.931,
+      "details": [
+        {
+          "supernode_id": "sn_y2022_l0_c0008",
+          "level": 0,
+          "label": "Machine Learning in Quantum Chemistry",
+          "gloss": "This group focuses on machine learning applications for modeling quantum interactions and electronic structure calculations.",
+          "verdict": "supported",
+          "reason": "The items listed all pertain to machine learning applications in quantum chemistry, specifically in modeling quantum interactions and electronic structure calculations."
+        },
+        {
+          "supernode_id": "sn_y2022_l0_c0011",
+          "level": 0,
+          "label": "Graph Neural Networks in Materials Science",
+          "gloss": "This group focuses on graph neural networks for modeling material properties and interatomic potentials.",
+          "verdict": "supported",
+          "reason": "All items listed pertain to the application of graph neural networks in modeling material properties and interatomic potentials."
+        },
+        {
+          "supernode_id": "sn_y2022_l0_c0010",
+          "level": 0,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group focuses on machine learning models and potentials for predicting material properties and behaviors.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning models and potentials used for predicting material properties and behaviors, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2022_l0_c0004",
+          "level": 0,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group encompasses machine learning applications and datasets for predicting materials properties and accelerating discovery.",
+          "verdict": "supported",
+          "reason": "All claims in the gloss about machine learning applications and datasets for predicting materials properties and accelerating discovery are directly supported by the items listed."
+        },
+        {
+          "supernode_id": "sn_y2022_l0_c0005",
+          "level": 0,
+          "label": "Machine Learning in Amorphous Carbon",
+          "gloss": "This group focuses on machine learning applications for modeling and simulating amorphous carbon structures.",
+          "verdict": "supported",
+          "reason": "All items listed relate to machine learning applications for modeling and simulating amorphous carbon structures, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2022_l0_c0007",
+          "level": 0,
+          "label": "High-Throughput DFT Calculations",
+          "gloss": "This group encompasses methods, databases, and standards for efficient DFT calculations in materials science.",
+          "verdict": "supported",
+          "reason": "All claims in the gloss regarding methods, databases, and standards for efficient DFT calculations in materials science are directly supported by the items listed."
+        },
+        {
+          "supernode_id": "sn_y2022_l0_c0001",
+          "level": 0,
+          "label": "Materials Science and Machine Learning Researchers",
+          "gloss": "A group of researchers contributing to materials science and machine learning advancements.",
+          "verdict": "supported",
+          "reason": "All listed individuals are recognized researchers in the fields of materials science and machine learning."
+        },
+        {
+          "supernode_id": "sn_y2022_l0_c0003",
+          "level": 0,
+          "label": "Materials Science and Machine Learning Researchers",
+          "gloss": "This group includes prominent researchers and methods in materials science and machine learning.",
+          "verdict": "supported",
+          "reason": "The items listed include prominent researchers and methods in materials science and machine learning, aligning with the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2022_l0_c0012",
+          "level": 0,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group encompasses machine learning techniques and frameworks applied to materials science research and data analysis.",
+          "verdict": "supported",
+          "reason": "All items listed pertain to machine learning techniques and frameworks applied in materials science research and data analysis."
+        },
+        {
+          "supernode_id": "sn_y2022_l0_c0009",
+          "level": 0,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group encompasses techniques and models for predicting material properties using machine learning methods.",
+          "verdict": "supported",
+          "reason": "The items listed include various machine learning techniques and models that are used for predicting material properties, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2022_l0_c0006",
+          "level": 0,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group focuses on machine learning models predicting properties of twisted van der Waals materials and phonon characteristics.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning models and their applications in predicting properties of twisted van der Waals materials and phonon characteristics."
+        },
+        {
+          "supernode_id": "sn_y2022_l0_c0002",
+          "level": 0,
+          "label": "MD-17 Chemical Compounds",
+          "gloss": "This group includes various chemical compounds and their MD-17 representations.",
+          "verdict": "overclaim",
+          "reason": "The gloss states that the group includes various chemical compounds and their MD-17 representations, but it includes duplicates and original/revised versions that do not represent distinct compounds."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0030",
+          "level": 1,
+          "label": "Machine Learning in Quantum Chemistry",
+          "gloss": "This group focuses on machine learning techniques for predicting quantum chemical properties and materials design.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning techniques applied to quantum chemistry, including predictions of quantum chemical properties and materials design."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0045",
+          "level": 1,
+          "label": "E(3) Equivariant Neural Networks",
+          "gloss": "This group focuses on E(3)-equivariant neural networks for modeling interatomic potentials and Hamiltonians.",
+          "verdict": "supported",
+          "reason": "All items listed pertain to E(3)-equivariant neural networks and their applications in modeling interatomic potentials and Hamiltonians."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0044",
+          "level": 1,
+          "label": "Graph Neural Networks in Materials Science",
+          "gloss": "This group focuses on graph neural networks for predicting material properties and modeling atomic interactions.",
+          "verdict": "supported",
+          "reason": "The items listed include various graph neural network approaches specifically aimed at predicting material properties and modeling atomic interactions, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0038",
+          "level": 1,
+          "label": "Interatomic Potentials and Models",
+          "gloss": "This group encompasses various models and methods for interatomic potentials in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed include various models and methods for interatomic potentials, aligning with the description provided in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0021",
+          "level": 1,
+          "label": "Atomic Cluster Expansion Techniques",
+          "gloss": "This group encompasses methods for modeling atomic properties using cluster expansions and embeddings.",
+          "verdict": "supported",
+          "reason": "The items listed include various atomic cluster expansion techniques and methods for modeling atomic properties, which align with the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0012",
+          "level": 1,
+          "label": "Data-Driven Materials Design Frameworks",
+          "gloss": "This group encompasses various platforms and methodologies for accelerating materials discovery and design using computational techniques.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples and details about various platforms and methodologies for data-driven materials design, aligning well with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0008",
+          "level": 1,
+          "label": "Deep Learning for Fracture Prediction",
+          "gloss": "This group focuses on using ConvLSTM models to predict fracture patterns in crystalline solids.",
+          "verdict": "supported",
+          "reason": "All claims in the gloss regarding the use of ConvLSTM models for predicting fracture patterns in crystalline solids are directly supported by the items listed."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0025",
+          "level": 1,
+          "label": "Ionic Diffusion Modeling and Prediction",
+          "gloss": "This group focuses on modeling and predicting ionic diffusion properties using neural networks and molecular dynamics simulations.",
+          "verdict": "supported",
+          "reason": "All items listed pertain to modeling and predicting ionic diffusion properties using neural networks and molecular dynamics simulations."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0011",
+          "level": 1,
+          "label": "Materials Property Prediction Methods",
+          "gloss": "This group focuses on machine learning techniques for predicting various material properties.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning techniques and methods used for predicting various material properties, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0013",
+          "level": 1,
+          "label": "Machine Learning in Amorphous Carbon",
+          "gloss": "This group focuses on machine learning applications for modeling and simulating amorphous carbon structures.",
+          "verdict": "supported",
+          "reason": "All items listed pertain to machine learning applications and modeling of amorphous carbon structures, directly supporting the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0017",
+          "level": 1,
+          "label": "AFLOW High-Throughput DFT Framework",
+          "gloss": "A standardized workflow and repository for high-throughput DFT calculations in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed provide detailed information about the AFLOW framework, its standardized workflows, and its capabilities in high-throughput DFT calculations, all of which align with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0010",
+          "level": 1,
+          "label": "Melting Temperature Prediction Insights",
+          "gloss": "Key features and methods for predicting melting temperatures of binary ionic compounds are analyzed.",
+          "verdict": "supported",
+          "reason": "The items provide specific insights into the methods and features used for predicting melting temperatures of binary ionic compounds, aligning with the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0001",
+          "level": 1,
+          "label": "Materials Science Researchers",
+          "gloss": "A group of researchers contributing to materials science and machine learning literature.",
+          "verdict": "vague",
+          "reason": "The gloss mentions contributions to materials science and machine learning literature, but it does not specify the nature of the contributions or the relevance of the listed researchers to these fields."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0004",
+          "level": 1,
+          "label": "Materials Science and Machine Learning Researchers",
+          "gloss": "A collection of researchers and tools in materials science and machine learning.",
+          "verdict": "supported",
+          "reason": "The items listed include both researchers and tools relevant to materials science and machine learning."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0002",
+          "level": 1,
+          "label": "Materials Science and Machine Learning Researchers",
+          "gloss": "This group consists of prominent researchers in materials science and machine learning.",
+          "verdict": "supported",
+          "reason": "All listed researchers are known for their contributions to materials science and machine learning."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0005",
+          "level": 1,
+          "label": "Materials Science and Machine Learning",
+          "gloss": "This group includes various models and methods for materials science and machine learning applications.",
+          "verdict": "supported",
+          "reason": "The items listed include various models and methods relevant to materials science and machine learning applications."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0007",
+          "level": 1,
+          "label": "Materials Science and Machine Learning Tools",
+          "gloss": "This group includes tools and methods for computational materials science and machine learning applications.",
+          "verdict": "supported",
+          "reason": "The items listed include various tools and methods relevant to computational materials science and machine learning applications."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0047",
+          "level": 1,
+          "label": "Neural Network Architectures for Materials Science",
+          "gloss": "This group includes various neural network models applied in materials science research.",
+          "verdict": "supported",
+          "reason": "All listed items are neural network architectures that have been applied in materials science research."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0048",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group encompasses neural network architectures and techniques applied to materials science problems.",
+          "verdict": "supported",
+          "reason": "The items listed include various neural network architectures and techniques specifically applied to materials science problems, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0046",
+          "level": 1,
+          "label": "Message Passing Neural Networks",
+          "gloss": "This group focuses on various methods and frameworks for message passing in neural networks.",
+          "verdict": "supported",
+          "reason": "The items listed provide various methods and frameworks related to message passing in neural networks, aligning with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0060",
+          "level": 1,
+          "label": "Descriptors and Encoding Techniques",
+          "gloss": "This group encompasses various descriptors and encoding methods used in materials science and machine learning.",
+          "verdict": "supported",
+          "reason": "The items listed include various descriptors and encoding techniques relevant to materials science and machine learning, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0006",
+          "level": 1,
+          "label": "Set2Set and Ionic Conductors",
+          "gloss": "This group includes Set2Set methods and various ionic conductor materials.",
+          "verdict": "supported",
+          "reason": "The items listed include multiple references to Set2Set methods and various ionic conductors, confirming the claims in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0032",
+          "level": 1,
+          "label": "Gaussian Processes and Basis Functions",
+          "gloss": "This group encompasses methods and expansions using Gaussian functions in machine learning and materials science.",
+          "verdict": "supported",
+          "reason": "The items listed include various methods and expansions that utilize Gaussian functions in machine learning and materials science, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0034",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group focuses on geometric and magnetic properties using machine learning techniques and frameworks.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific techniques and frameworks related to geometric and magnetic properties in materials science using machine learning."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0039",
+          "level": 1,
+          "label": "Neural Networks and Optimization Techniques",
+          "gloss": "This group encompasses neural network potentials and optimization methods in materials science and machine learning.",
+          "verdict": "supported",
+          "reason": "The items listed include various neural network potentials and optimization methods relevant to materials science and machine learning, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0016",
+          "level": 1,
+          "label": "Electronic Band Structure and Properties",
+          "gloss": "This group encompasses methods and calculations related to electronic band structure and band gap properties.",
+          "verdict": "supported",
+          "reason": "All items listed relate to methods and calculations concerning electronic band structure and band gap properties."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0027",
+          "level": 1,
+          "label": "Machine Learning for Molecular Dynamics",
+          "gloss": "This group focuses on machine learning methods for improving molecular dynamics simulations and interatomic potentials.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning methods and their applications in improving molecular dynamics simulations and interatomic potentials."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0026",
+          "level": 1,
+          "label": "Machine Learning in Atomistic Simulations",
+          "gloss": "This group focuses on machine learning techniques for efficient atomistic simulations and their integration with existing methods.",
+          "verdict": "supported",
+          "reason": "The items listed include various machine learning techniques and tools that enhance atomistic simulations, aligning with the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0024",
+          "level": 1,
+          "label": "Molecular Dynamics and Machine Learning",
+          "gloss": "This group focuses on molecular dynamics simulations and machine learning techniques for predicting molecular properties.",
+          "verdict": "supported",
+          "reason": "The items listed include various methods and applications of molecular dynamics simulations and machine learning techniques relevant to predicting molecular properties."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0023",
+          "level": 1,
+          "label": "DFT and Corrections Methods",
+          "gloss": "This group covers various DFT methods and corrections for materials science applications.",
+          "verdict": "supported",
+          "reason": "The items listed include various DFT methods and corrections relevant to materials science applications, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0019",
+          "level": 1,
+          "label": "Solid-State Electrolytes and Screening",
+          "gloss": "This group focuses on the development and screening of solid-state electrolytes and battery materials.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of the development and screening of solid-state electrolytes and battery materials, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0043",
+          "level": 1,
+          "label": "Thermodynamic and Mechanical Property Predictions",
+          "gloss": "This group focuses on predicting thermodynamic stability and mechanical properties of materials using various computational methods.",
+          "verdict": "supported",
+          "reason": "The items listed provide various methods and analyses related to predicting thermodynamic stability and mechanical properties of materials."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0051",
+          "level": 1,
+          "label": "Machine Learning Optimization Techniques",
+          "gloss": "This group encompasses various algorithms and methods for optimizing machine learning performance and computational efficiency.",
+          "verdict": "vague",
+          "reason": "The gloss describes a broad category of optimization techniques without specifying which items directly relate to optimizing machine learning performance and computational efficiency."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0053",
+          "level": 1,
+          "label": "Materials Science Prediction Techniques",
+          "gloss": "This group encompasses various methods and formulas for predicting material properties and optimizing machine learning models.",
+          "verdict": "supported",
+          "reason": "The items listed include various techniques and formulas that are relevant for predicting material properties and optimizing machine learning models."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0058",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group encompasses methods and pipelines for applying machine learning to materials science data analysis.",
+          "verdict": "supported",
+          "reason": "The items listed include various methods and components related to machine learning applications in materials science, aligning with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0028",
+          "level": 1,
+          "label": "MEGNet and M3GNet Models",
+          "gloss": "This group focuses on advanced neural network models for predicting material properties and optimizing simulations.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific evidence of the capabilities and performance of MEGNet and M3GNet models in predicting material properties and optimizing simulations."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0054",
+          "level": 1,
+          "label": "Matminer and Matbench Resources",
+          "gloss": "This group includes tools and datasets for materials science and machine learning applications.",
+          "verdict": "supported",
+          "reason": "The items listed include specific tools and datasets related to Matminer and Matbench, which are indeed used for materials science and machine learning applications."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0050",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "Exploration of machine learning techniques and models for predicting materials properties and improving interpretability.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning techniques and models used in materials science, including various algorithms, training protocols, and interpretability analyses that align with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0029",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group focuses on CGCNN and GNN applications for predicting material properties and optimizing designs.",
+          "verdict": "supported",
+          "reason": "All claims in the gloss regarding CGCNN and GNN applications for predicting material properties and optimizing designs are directly supported by the detailed items listed."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0009",
+          "level": 1,
+          "label": "Crystal Structure Representation and Prediction",
+          "gloss": "This group focuses on methods for representing and predicting properties of crystal structures using machine learning.",
+          "verdict": "supported",
+          "reason": "The items listed provide various methods and approaches for representing and predicting properties of crystal structures using machine learning."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0020",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group focuses on using machine learning for predicting and validating stable compounds and materials properties.",
+          "verdict": "supported",
+          "reason": "All items listed demonstrate the application of machine learning techniques in predicting and validating stable compounds and materials properties."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0018",
+          "level": 1,
+          "label": "JARVIS Databases and DFT Methods",
+          "gloss": "This group encompasses JARVIS databases, DFT methods, and their computational efficiencies and limitations.",
+          "verdict": "supported",
+          "reason": "The items provide specific details about JARVIS databases, DFT methods, their computational efficiencies, and limitations, aligning well with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0041",
+          "level": 1,
+          "label": "Machine Learning for Force Prediction",
+          "gloss": "This group focuses on machine learning techniques for predicting energies, forces, and related properties in materials science.",
+          "verdict": "supported",
+          "reason": "All items listed relate to machine learning techniques for predicting energies, forces, and related properties in materials science, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0014",
+          "level": 1,
+          "label": "Machine Learning for Twisted Materials",
+          "gloss": "This group focuses on machine learning models predicting properties of twisted van der Waals materials.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning models, particularly DeepH, accurately predicting properties of twisted van der Waals materials, aligning with the focus of the gloss."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0059",
+          "level": 1,
+          "label": "JARVIS Data and Tools",
+          "gloss": "A collection of JARVIS datasets, workflows, and tools for materials science and machine learning.",
+          "verdict": "supported",
+          "reason": "All claims in the gloss about JARVIS datasets, workflows, and tools are directly supported by the listed items."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0056",
+          "level": 1,
+          "label": "Graph-Based Materials Analysis",
+          "gloss": "This group focuses on algorithms and architectures for identifying interstitial sites in materials using graph representations.",
+          "verdict": "supported",
+          "reason": "The items listed include specific algorithms and architectural components that are directly related to identifying interstitial sites in materials using graph representations."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0042",
+          "level": 1,
+          "label": "Energy Calculations and Predictions",
+          "gloss": "This group encompasses various methods for calculating and predicting formation and activation energies in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed include various methods and terms related to calculating and predicting formation and activation energies, which directly align with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0037",
+          "level": 1,
+          "label": "K-Point Sampling and PES Techniques",
+          "gloss": "This group encompasses methods for efficient k-point sampling and potential energy surface analysis in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific methods and techniques related to k-point sampling and potential energy surface analysis, aligning well with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0055",
+          "level": 1,
+          "label": "Automatminer Machine Learning Pipeline",
+          "gloss": "A fully-automated machine learning pipeline with various presets and optimization techniques for materials science tasks.",
+          "verdict": "supported",
+          "reason": "The items provide specific details about the Automatminer pipeline, its performance, and its features, all of which align with the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0049",
+          "level": 1,
+          "label": "Cross-Validation Techniques",
+          "gloss": "This group represents various methods of cross-validation used for model evaluation in machine learning.",
+          "verdict": "supported",
+          "reason": "All items listed are recognized methods of cross-validation used for model evaluation in machine learning."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0015",
+          "level": 1,
+          "label": "Phonon and Elastic Property Calculations",
+          "gloss": "This group encompasses methods and tools for predicting phonon and elastic properties of materials.",
+          "verdict": "supported",
+          "reason": "The items listed provide various methods and tools for predicting phonon and elastic properties, directly aligning with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0031",
+          "level": 1,
+          "label": "Spherical Harmonics Representations",
+          "gloss": "This group focuses on encoding and expanding tensors using spherical harmonics for efficient representation.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples and methods of using spherical harmonics for tensor representation, aligning with the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0033",
+          "level": 1,
+          "label": "Hamiltonian Matrix Learning Techniques",
+          "gloss": "Methods for predicting and constructing DFT Hamiltonian matrices using deep learning and efficient algorithms.",
+          "verdict": "supported",
+          "reason": "The items listed directly relate to methods for predicting and constructing DFT Hamiltonian matrices using deep learning and efficient algorithms."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0036",
+          "level": 1,
+          "label": "Surface Slab Modeling Techniques",
+          "gloss": "This group encompasses methods for generating and simulating surface slabs and their properties.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific methods and applications related to generating and simulating surface slabs and their properties."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0052",
+          "level": 1,
+          "label": "Uncertainty Quantification and Error Management",
+          "gloss": "This group focuses on methods for uncertainty quantification and error handling in machine learning and computational predictions.",
+          "verdict": "supported",
+          "reason": "All items listed relate to methods and systems for uncertainty quantification and error management in machine learning and computational predictions."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0057",
+          "level": 1,
+          "label": "Automated Data Processing Frameworks",
+          "gloss": "This group encompasses tools and workflows for automated data processing and integration in computational research.",
+          "verdict": "vague",
+          "reason": "The gloss describes a broad range of automated data processing and integration tools, but the specific items listed do not clearly support all aspects of the claims made."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0022",
+          "level": 1,
+          "label": "Superconductivity Featurizers and Predictions",
+          "gloss": "This group focuses on featurizers and methods for predicting superconducting materials and their properties.",
+          "verdict": "supported",
+          "reason": "The items listed include various featurizers and methods that are directly related to predicting superconducting materials and their properties."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0035",
+          "level": 1,
+          "label": "Convex Hull Analysis and Prediction",
+          "gloss": "This group focuses on methods related to convex hull distance and stability analysis.",
+          "verdict": "supported",
+          "reason": "All items listed relate directly to convex hull distance and stability analysis methods."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0003",
+          "level": 1,
+          "label": "MD-17 Chemical Compounds",
+          "gloss": "This group includes various chemical compounds and their MD-17 representations.",
+          "verdict": "overclaim",
+          "reason": "The gloss states that the group includes various chemical compounds and their MD-17 representations, but it includes duplicates and original/revised versions that do not represent distinct compounds."
+        },
+        {
+          "supernode_id": "sn_y2022_l1_c0040",
+          "level": 1,
+          "label": "Mean Absolute Error Metrics",
+          "gloss": "This group includes various metrics for evaluating energy-related errors in materials science.",
+          "verdict": "supported",
+          "reason": "All items listed are metrics related to evaluating energy-related errors in materials science, specifically focusing on mean absolute error and root mean square error."
+        }
+      ]
+    },
+    "2024": {
+      "snapshot_year": 2024,
+      "total_evaluated": 72,
+      "counts": {
+        "supported": 63,
+        "vague": 3,
+        "overclaim": 6
+      },
+      "overclaim_rate": 0.083,
+      "supported_rate": 0.875,
+      "details": [
+        {
+          "supernode_id": "sn_y2024_l0_c0003",
+          "level": 0,
+          "label": "Machine Learning in Quantum Chemistry",
+          "gloss": "This group encompasses machine learning methods applied to quantum chemistry and materials science.",
+          "verdict": "overclaim",
+          "reason": "The gloss implies a focus on machine learning methods specifically applied to quantum chemistry and materials science, but several items listed, such as 'Pauling electronegativity' and 'molecular mechanics', do not pertain to machine learning."
+        },
+        {
+          "supernode_id": "sn_y2024_l0_c0009",
+          "level": 0,
+          "label": "E(3)-Equivariant Neural Networks",
+          "gloss": "A collection of architectures and methods for E(3)-equivariant neural networks in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples and methods related to E(3)-equivariant neural networks in materials science, directly supporting the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l0_c0010",
+          "level": 0,
+          "label": "Graph Neural Networks in Materials Science",
+          "gloss": "This group focuses on graph neural networks applied to materials science and interatomic potential predictions.",
+          "verdict": "supported",
+          "reason": "All items listed pertain to the application of graph neural networks in materials science and interatomic potential predictions."
+        },
+        {
+          "supernode_id": "sn_y2024_l0_c0004",
+          "level": 0,
+          "label": "Machine Learning and DFT Methods",
+          "gloss": "This group encompasses deep learning approaches and methodologies related to Density Functional Theory.",
+          "verdict": "overclaim",
+          "reason": "The gloss implies a direct relationship between deep learning approaches and DFT methodologies, but several items listed do not pertain to deep learning, such as Gaussian quadrature and various DFT methods."
+        },
+        {
+          "supernode_id": "sn_y2024_l0_c0012",
+          "level": 0,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group encompasses various machine learning techniques and models applied to materials science and computational modeling.",
+          "verdict": "supported",
+          "reason": "The items listed include various machine learning techniques and models that are directly applicable to materials science and computational modeling."
+        },
+        {
+          "supernode_id": "sn_y2024_l0_c0002",
+          "level": 0,
+          "label": "Data-Driven Materials Design Frameworks",
+          "gloss": "This group encompasses various tools and projects for accelerating materials discovery using machine learning and data-driven approaches.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of tools and projects that utilize machine learning and data-driven approaches for materials discovery, aligning with the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l0_c0006",
+          "level": 0,
+          "label": "Machine Learning Interatomic Potentials",
+          "gloss": "This group encompasses various machine learning models and potentials for simulating atomic interactions in materials science.",
+          "verdict": "overclaim",
+          "reason": "The gloss implies that all items are machine learning models for interatomic potentials, but some items, like the Cahn-Hilliard equation and Allen-Cahn equation, are not machine learning models."
+        },
+        {
+          "supernode_id": "sn_y2024_l0_c0005",
+          "level": 0,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "Exploring machine learning applications for predicting material properties and behaviors in crystalline solids.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning applications in predicting material properties and behaviors in crystalline solids, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l0_c0011",
+          "level": 0,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group encompasses tools and standards for integrating machine learning in materials science calculations and simulations.",
+          "verdict": "supported",
+          "reason": "The items listed include various machine learning tools and standards specifically designed for materials science calculations and simulations, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2024_l0_c0008",
+          "level": 0,
+          "label": "Materials Science and Machine Learning Researchers",
+          "gloss": "This group consists of researchers contributing to materials science and machine learning.",
+          "verdict": "supported",
+          "reason": "All listed individuals are recognized researchers in the fields of materials science and machine learning."
+        },
+        {
+          "supernode_id": "sn_y2024_l0_c0007",
+          "level": 0,
+          "label": "Materials Science and Machine Learning Researchers",
+          "gloss": "A group of researchers and methods in materials science and machine learning.",
+          "verdict": "vague",
+          "reason": "The gloss describes a general group of researchers and methods without specifying their contributions or relevance to materials science and machine learning, making it difficult to verify from the items listed."
+        },
+        {
+          "supernode_id": "sn_y2024_l0_c0001",
+          "level": 0,
+          "label": "Phonon Prediction Techniques and Models",
+          "gloss": "This group encompasses various methods and models for predicting phonon properties in materials.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific methods and models for predicting phonon properties in materials, aligning with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0008",
+          "level": 1,
+          "label": "Machine Learning in Quantum Chemistry",
+          "gloss": "This group covers neural networks and models for predicting quantum interactions and electronic structures.",
+          "verdict": "supported",
+          "reason": "All items listed pertain to neural networks and models used for predicting quantum interactions and electronic structures, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0033",
+          "level": 1,
+          "label": "E(3)-Equivariant Neural Networks",
+          "gloss": "A collection of architectures and frameworks for E(3)-equivariant graph neural networks and their applications.",
+          "verdict": "supported",
+          "reason": "All items listed pertain to E(3)-equivariant neural networks and their applications, directly supporting the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0037",
+          "level": 1,
+          "label": "Graph Neural Networks in Materials Science",
+          "gloss": "This group focuses on GNN applications, architectures, and performance in materials science and related fields.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples and evidence of GNN applications, architectures, and performance in materials science, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0011",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group encompasses machine learning applications for predicting and simulating properties of materials, particularly solid-state electrolytes.",
+          "verdict": "supported",
+          "reason": "The items listed demonstrate various machine learning applications for predicting and simulating properties of materials, particularly solid-state electrolytes, as described in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0007",
+          "level": 1,
+          "label": "Machine Learning in Crystal Discovery",
+          "gloss": "This group focuses on machine learning methods for predicting and discovering crystal structures and properties.",
+          "verdict": "supported",
+          "reason": "The items listed provide various machine learning methods and frameworks specifically aimed at predicting and discovering crystal structures and properties."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0035",
+          "level": 1,
+          "label": "Graph Neural Networks in Materials Science",
+          "gloss": "This group encompasses various applications and models of graph neural networks for predicting material properties.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific applications and models of graph neural networks that are used for predicting material properties, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0006",
+          "level": 1,
+          "label": "Molecular Dynamics and Machine Learning",
+          "gloss": "This group encompasses methods and models for molecular dynamics simulations enhanced by machine learning techniques.",
+          "verdict": "supported",
+          "reason": "The items listed include various methods and models for molecular dynamics simulations that are enhanced by machine learning techniques, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0003",
+          "level": 1,
+          "label": "Machine Learning for Magnetic Materials",
+          "gloss": "This group focuses on deep learning methods for predicting properties of magnetic materials and their structures.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of deep learning methods and their applications in predicting properties of magnetic materials, aligning with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0014",
+          "level": 1,
+          "label": "Machine Learning in Density Functional Theory",
+          "gloss": "This group explores deep learning approaches and Gaussian quadrature techniques in Kohn-Sham density functional theory.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of deep learning approaches and Gaussian quadrature techniques applied in Kohn-Sham density functional theory, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0059",
+          "level": 1,
+          "label": "Atomic Cluster Expansion and Clustering Techniques",
+          "gloss": "This group covers atomic cluster expansion methods and clustering approaches in materials science and machine learning.",
+          "verdict": "supported",
+          "reason": "The items listed include various atomic cluster expansion methods and clustering techniques relevant to materials science and machine learning, directly supporting the claims in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0002",
+          "level": 1,
+          "label": "Data-Driven Materials Design Frameworks",
+          "gloss": "This group encompasses various platforms and tools for accelerating materials discovery using machine learning.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of platforms and tools that utilize machine learning for materials discovery, aligning with the gloss's description."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0009",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group focuses on machine learning applications for materials design, discovery, and characterization using computational methods.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning applications in materials design, discovery, and characterization, aligning with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0019",
+          "level": 1,
+          "label": "Machine Learning Interatomic Potentials for Silicon",
+          "gloss": "This group focuses on developing and benchmarking machine learning interatomic potentials specifically for silicon.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples and details about the development and benchmarking of machine learning interatomic potentials for silicon, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0018",
+          "level": 1,
+          "label": "Machine Learning in Fracture Prediction",
+          "gloss": "This group focuses on using deep learning to predict fracture patterns and toughness in crystalline materials.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of using deep learning techniques, particularly the ConvLSTM model, to predict fracture patterns and toughness in crystalline materials, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0048",
+          "level": 1,
+          "label": "Machine Learning in Molecular Dynamics",
+          "gloss": "This group focuses on machine learning models and their applications in molecular dynamics simulations.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples and details about machine learning models and their applications in molecular dynamics simulations, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0057",
+          "level": 1,
+          "label": "Machine Learning in Multiscale Modeling",
+          "gloss": "Explores normalization techniques and challenges in applying machine learning to multiscale computational modeling.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific techniques and challenges related to normalization and the application of machine learning in multiscale computational modeling."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0010",
+          "level": 1,
+          "label": "Amorphous Carbon and Si3N4 Simulations",
+          "gloss": "This group focuses on machine learning and simulations of amorphous carbon and Si3N4 structures.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning applications and simulations related to amorphous carbon and Si3N4 structures, directly supporting the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0044",
+          "level": 1,
+          "label": "AFLOW and GNoME Materials Discovery",
+          "gloss": "This group encompasses tools and standards for high-throughput materials science calculations and discovery.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific details about the AFLOW standard, GNoME discoveries, and their contributions to high-throughput materials science calculations and discovery."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0047",
+          "level": 1,
+          "label": "Machine Learning Interatomic Potentials",
+          "gloss": "MLIPs map atomic configurations to energy and forces, bridging AIMD and PBP methodologies.",
+          "verdict": "supported",
+          "reason": "The gloss accurately describes the role of MLIPs in mapping atomic configurations to energy and forces, and their relationship to AIMD and PBP methodologies, which is supported by multiple items in the group."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0015",
+          "level": 1,
+          "label": "Melting Temperature Prediction Models",
+          "gloss": "This group focuses on methods and datasets for predicting melting temperatures of inorganic and binary ionic compounds.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific methods, datasets, and findings related to predicting melting temperatures of inorganic and binary ionic compounds, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0054",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group encompasses deep learning techniques and optimization strategies for materials discovery and modeling.",
+          "verdict": "supported",
+          "reason": "The items listed include various deep learning techniques and optimization strategies relevant to materials discovery and modeling, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0032",
+          "level": 1,
+          "label": "Researchers in Materials Science and Machine Learning",
+          "gloss": "This group consists of authors contributing to materials science and machine learning literature.",
+          "verdict": "supported",
+          "reason": "All listed authors are known contributors to the fields of materials science and machine learning."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0027",
+          "level": 1,
+          "label": "Materials Science and Machine Learning Researchers",
+          "gloss": "A group of researchers and tools in materials science and machine learning.",
+          "verdict": "supported",
+          "reason": "The items listed include researchers and tools that are relevant to both materials science and machine learning."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0031",
+          "level": 1,
+          "label": "Materials Science and Machine Learning Researchers",
+          "gloss": "A group of researchers contributing to materials science and machine learning.",
+          "verdict": "supported",
+          "reason": "All listed individuals are recognized researchers in the fields of materials science and machine learning."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0028",
+          "level": 1,
+          "label": "Materials Science and Machine Learning",
+          "gloss": "This group encompasses key figures, methods, and models in materials science and machine learning.",
+          "verdict": "supported",
+          "reason": "The items listed include key figures, methods, and models relevant to both materials science and machine learning."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0038",
+          "level": 1,
+          "label": "Geometric Deep Learning Models",
+          "gloss": "This group includes various neural network architectures for geometric data and materials science applications.",
+          "verdict": "overclaim",
+          "reason": "While some items relate to geometric deep learning, others like NumPy and PyTorch are general-purpose libraries and do not specifically pertain to geometric data or materials science applications."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0034",
+          "level": 1,
+          "label": "Tensor Networks and Machine Learning",
+          "gloss": "This group focuses on tensor networks, their applications, and computational techniques in machine learning.",
+          "verdict": "supported",
+          "reason": "The items listed include various tensor networks and their applications in machine learning, aligning well with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0060",
+          "level": 1,
+          "label": "Machine Learning Regression Techniques",
+          "gloss": "This group encompasses various regression methods and feature analysis techniques in materials science.",
+          "verdict": "overclaim",
+          "reason": "The gloss suggests a focus on regression methods and feature analysis techniques, but several items listed do not pertain to regression or feature analysis, such as 'Complex\u2011vector handling via time\u2011reversal basis' and 'Visual warning system'."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0005",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group encompasses machine learning methods and their applications in predicting material properties and behaviors.",
+          "verdict": "supported",
+          "reason": "The items listed include various machine learning methods and their applications in predicting material properties and behaviors, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0051",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group encompasses various neural network architectures and methods for modeling materials properties and inverse design.",
+          "verdict": "overclaim",
+          "reason": "While the items include various neural network architectures and methods, the gloss implies a broader applicability and completeness of these methods in modeling materials properties and inverse design that is not fully supported by the listed items."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0013",
+          "level": 1,
+          "label": "DFT Methods and Workflows",
+          "gloss": "This group encompasses various DFT techniques, workflows, and databases for materials science research.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of DFT techniques, workflows, and databases relevant to materials science research, aligning with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0052",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group encompasses various machine learning techniques and models applied to materials science research.",
+          "verdict": "vague",
+          "reason": "The gloss describes a broad application of machine learning techniques in materials science, but the specific items listed do not clearly demonstrate or support this application comprehensively."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0030",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group focuses on advanced machine learning models for predicting material properties and performance.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples and results of advanced machine learning models used for predicting material properties and performance, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0039",
+          "level": 1,
+          "label": "Message Passing Neural Networks",
+          "gloss": "This group encompasses various techniques and functions related to message passing in neural networks.",
+          "verdict": "supported",
+          "reason": "The items listed include various techniques and functions related to message passing in neural networks, directly supporting the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0036",
+          "level": 1,
+          "label": "Graph Convolution and Attention Mechanisms",
+          "gloss": "This group encompasses various graph convolutional and attention-based techniques for processing molecular and crystal data.",
+          "verdict": "supported",
+          "reason": "The items listed include various graph convolutional and attention-based techniques relevant to processing molecular and crystal data, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0056",
+          "level": 1,
+          "label": "Machine Learning Evaluation Techniques",
+          "gloss": "This group encompasses methods and metrics for evaluating machine learning models and datasets.",
+          "verdict": "vague",
+          "reason": "The gloss describes a broad category of evaluation techniques without specific references to the items listed, making it difficult to verify the claims."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0053",
+          "level": 1,
+          "label": "Symmetry and Representation in Materials Science",
+          "gloss": "This group focuses on symmetry-preserving features and representations in atomic and molecular systems.",
+          "verdict": "supported",
+          "reason": "The items listed all relate to symmetry-preserving features and representations in atomic and molecular systems, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0020",
+          "level": 1,
+          "label": "Neural Network Potentials and Models",
+          "gloss": "This group includes various neural network potentials and related models for materials science simulations.",
+          "verdict": "supported",
+          "reason": "All items listed are related to neural network potentials and models used in materials science simulations."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0045",
+          "level": 1,
+          "label": "Monte Carlo Methods in Simulations",
+          "gloss": "This group encompasses various Monte Carlo techniques and their applications in atomistic simulations and sampling.",
+          "verdict": "supported",
+          "reason": "The items listed include various Monte Carlo techniques and their applications, which align with the description provided in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0055",
+          "level": 1,
+          "label": "Model Interpretability and Uncertainty",
+          "gloss": "This group focuses on model interpretability, uncertainty quantification, and biases in machine learning for materials science.",
+          "verdict": "supported",
+          "reason": "The items listed directly address aspects of model interpretability, uncertainty quantification, and biases in machine learning relevant to materials science."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0023",
+          "level": 1,
+          "label": "Materials Science and Machine Learning",
+          "gloss": "This group encompasses models and methods for studying diffusion and energy interactions in materials.",
+          "verdict": "supported",
+          "reason": "The items listed include various models and methods related to diffusion and energy interactions in materials, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0042",
+          "level": 1,
+          "label": "Machine Learning and Quantum Chemistry Tools",
+          "gloss": "This group includes tools and datasets for quantum chemistry and machine learning applications.",
+          "verdict": "supported",
+          "reason": "All items listed are relevant tools and datasets used in quantum chemistry and machine learning applications."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0049",
+          "level": 1,
+          "label": "Descriptors and Many-Body Interactions",
+          "gloss": "This group focuses on various descriptors and their roles in many-body interactions in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed include various descriptors and many-body interaction modules that are relevant to materials science, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0058",
+          "level": 1,
+          "label": "Elemental Embeddings and Property Prediction",
+          "gloss": "This group focuses on elemental embeddings and their application in predicting material properties using machine learning.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific methods and concepts related to elemental embeddings and their application in predicting material properties using machine learning."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0016",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "Explores machine learning techniques for predicting material properties and stability in the physical sciences.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning techniques and their applications in predicting material properties and stability, aligning well with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0041",
+          "level": 1,
+          "label": "Matminer and Matbench Tools",
+          "gloss": "This group includes tools and packages for materials data mining and benchmarking.",
+          "verdict": "supported",
+          "reason": "All items listed are related to Matminer and Matbench, which are tools for materials data mining and benchmarking."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0029",
+          "level": 1,
+          "label": "OC20 and OC22 Models",
+          "gloss": "This group includes various configurations and tasks related to OC20 and OC22 models in machine learning.",
+          "verdict": "supported",
+          "reason": "All items listed are configurations or tasks related to the OC20 and OC22 models in machine learning."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0017",
+          "level": 1,
+          "label": "Force Prediction and Energy Models",
+          "gloss": "This group focuses on methods and models for predicting forces and energies in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific methods and models for predicting forces and energies in materials science, aligning well with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0004",
+          "level": 1,
+          "label": "Phase Field Modeling and Simulations",
+          "gloss": "This group encompasses methods and frameworks for phase field simulations and phase diagram analysis.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific methods and frameworks related to phase field simulations and phase diagram analysis, aligning well with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0012",
+          "level": 1,
+          "label": "Radial And Spherical Basis Functions",
+          "gloss": "This group encompasses various radial and spherical basis expansions and their applications in machine learning.",
+          "verdict": "supported",
+          "reason": "The items listed include various types of radial and spherical basis functions and their applications, which align with the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0040",
+          "level": 1,
+          "label": "Virtual Nodes and Edge Mechanisms",
+          "gloss": "This group encompasses concepts related to virtual nodes and their interactions in graph-based models.",
+          "verdict": "supported",
+          "reason": "The items listed directly relate to virtual nodes and their interactions in graph-based models, as indicated in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0022",
+          "level": 1,
+          "label": "Surface Energy and Reconstruction Models",
+          "gloss": "This group focuses on methods and models for surface energy and reconstruction in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific methods and models related to surface energy and reconstruction, aligning well with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0021",
+          "level": 1,
+          "label": "Energy Prediction Techniques",
+          "gloss": "This group encompasses various methods and models for predicting energy and activation energies in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed provide various methods and models for predicting energy and activation energies, aligning well with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0001",
+          "level": 1,
+          "label": "Phonon Prediction Methods and Models",
+          "gloss": "This group encompasses various models and methods for predicting phonon properties in materials.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific methods and models for predicting phonon properties in materials, aligning with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0025",
+          "level": 1,
+          "label": "Loss Functions in Machine Learning",
+          "gloss": "This group encompasses various loss functions used in machine learning for energy and force predictions.",
+          "verdict": "supported",
+          "reason": "The items listed include various loss functions and combinations relevant to energy and force predictions in machine learning, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0043",
+          "level": 1,
+          "label": "Automatminer Machine Learning Pipeline",
+          "gloss": "A fully-automated machine learning pipeline for materials science with various presets and workflows.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific details about Automatminer as a fully-automated machine learning pipeline for materials science, including its stages, performance benchmarks, and open-source availability."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0046",
+          "level": 1,
+          "label": "Materials Discovery and GPU Performance",
+          "gloss": "This group focuses on GPU performance metrics and challenges in materials discovery and screening methodologies.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific metrics and challenges related to GPU performance in materials discovery and screening methodologies."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0024",
+          "level": 1,
+          "label": "Mean Absolute Error Metrics",
+          "gloss": "This group includes various metrics for evaluating mean absolute error in energy and force calculations.",
+          "verdict": "supported",
+          "reason": "All items listed pertain to various metrics for evaluating mean absolute error in energy and force calculations."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0050",
+          "level": 1,
+          "label": "Convex Hull Analysis and Prediction",
+          "gloss": "This group focuses on methods and analyses related to convex hulls in materials science.",
+          "verdict": "supported",
+          "reason": "All items listed relate to methods and analyses involving convex hulls in materials science."
+        },
+        {
+          "supernode_id": "sn_y2024_l1_c0026",
+          "level": 1,
+          "label": "MD-17 Chemical Compounds",
+          "gloss": "A collection of chemical compounds and their variations in the MD-17 dataset.",
+          "verdict": "supported",
+          "reason": "All items listed are chemical compounds included in the MD-17 dataset."
+        }
+      ]
+    },
+    "2026": {
+      "snapshot_year": 2026,
+      "total_evaluated": 72,
+      "counts": {
+        "supported": 60,
+        "vague": 6,
+        "overclaim": 6
+      },
+      "overclaim_rate": 0.083,
+      "supported_rate": 0.833,
+      "details": [
+        {
+          "supernode_id": "sn_y2026_l0_c0004",
+          "level": 0,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group encompasses machine learning applications and models for quantum chemistry and materials discovery.",
+          "verdict": "supported",
+          "reason": "The items listed include various machine learning applications and models specifically related to quantum chemistry and materials discovery."
+        },
+        {
+          "supernode_id": "sn_y2026_l0_c0012",
+          "level": 0,
+          "label": "Equivariant Neural Networks in Materials Science",
+          "gloss": "This group focuses on equivariant neural networks for modeling materials and atomic interactions.",
+          "verdict": "supported",
+          "reason": "The items listed include various equivariant neural network models and frameworks specifically designed for applications in materials science and atomic interactions."
+        },
+        {
+          "supernode_id": "sn_y2026_l0_c0011",
+          "level": 0,
+          "label": "Graph Neural Networks in Materials Science",
+          "gloss": "This group focuses on graph neural networks for predicting material properties and interatomic potentials.",
+          "verdict": "supported",
+          "reason": "All items listed pertain to the use of graph neural networks for predicting material properties and interatomic potentials."
+        },
+        {
+          "supernode_id": "sn_y2026_l0_c0005",
+          "level": 0,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "Exploring machine learning applications for predicting properties and behaviors of ionic conductors and solid electrolytes.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning applications in predicting properties and behaviors of ionic conductors and solid electrolytes, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2026_l0_c0007",
+          "level": 0,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group encompasses various methods and frameworks for data-driven materials discovery and property prediction.",
+          "verdict": "supported",
+          "reason": "All claims in the gloss regarding data-driven materials discovery and property prediction methods are directly supported by the items listed."
+        },
+        {
+          "supernode_id": "sn_y2026_l0_c0003",
+          "level": 0,
+          "label": "Machine Learning Interatomic Potentials",
+          "gloss": "A collection of methods and datasets for developing machine learning-based interatomic potentials in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed include various methods and datasets specifically related to machine learning-based interatomic potentials in materials science."
+        },
+        {
+          "supernode_id": "sn_y2026_l0_c0008",
+          "level": 0,
+          "label": "Open Materials 2024 Contributors",
+          "gloss": "A collection of researchers and datasets related to inorganic materials for Open Materials 2024.",
+          "verdict": "supported",
+          "reason": "The items listed include both the Open Materials 2024 Inorganic Materials Dataset and Models as well as a collection of researchers contributing to it."
+        },
+        {
+          "supernode_id": "sn_y2026_l0_c0010",
+          "level": 0,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "Explores machine learning techniques and tools for computational modeling in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed include various machine learning techniques and tools relevant to computational modeling in materials science, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2026_l0_c0009",
+          "level": 0,
+          "label": "Materials Science and Machine Learning Researchers",
+          "gloss": "A group of researchers contributing to materials science and machine learning literature.",
+          "verdict": "supported",
+          "reason": "All listed individuals are recognized contributors to the fields of materials science and machine learning."
+        },
+        {
+          "supernode_id": "sn_y2026_l0_c0002",
+          "level": 0,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group encompasses various machine learning techniques and models for predicting material properties and energies.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning techniques and models used for predicting material properties and energies, aligning with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2026_l0_c0001",
+          "level": 0,
+          "label": "DFT Methods and Workflows",
+          "gloss": "This group encompasses various DFT techniques, workflows, and challenges in high-throughput calculations.",
+          "verdict": "supported",
+          "reason": "The items listed encompass various DFT techniques, workflows, and challenges related to high-throughput calculations, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2026_l0_c0006",
+          "level": 0,
+          "label": "Phonon Prediction and Analysis",
+          "gloss": "This group focuses on methods and models for predicting phonon properties and their applications in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific methods and models for predicting phonon properties and their applications in materials science, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0020",
+          "level": 1,
+          "label": "Machine Learning in Quantum Chemistry",
+          "gloss": "This group explores machine learning applications for modeling quantum interactions and electronic structures in materials science.",
+          "verdict": "overclaim",
+          "reason": "The gloss implies a focus on machine learning applications specifically for modeling quantum interactions and electronic structures, but several items listed, such as 'Pauling electronegativity' and 'ab initio quantum mechanics', do not pertain to machine learning."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0053",
+          "level": 1,
+          "label": "Equivariant Neural Networks in Materials Science",
+          "gloss": "This group focuses on equivariant neural network architectures for modeling atomic interactions and dynamics.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples and details about equivariant neural network architectures used for modeling atomic interactions and dynamics, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0060",
+          "level": 1,
+          "label": "Equivariant Neural Network Frameworks",
+          "gloss": "This group focuses on neural network architectures preserving symmetry in materials science and Hamiltonian representations.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples and frameworks that demonstrate the preservation of symmetry in neural network architectures relevant to materials science and Hamiltonian representations."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0049",
+          "level": 1,
+          "label": "Graph Neural Networks in Materials Science",
+          "gloss": "This group focuses on graph neural networks for predicting material properties and interatomic potentials.",
+          "verdict": "supported",
+          "reason": "All items listed pertain to the use of graph neural networks for predicting material properties and interatomic potentials, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0052",
+          "level": 1,
+          "label": "Graph Neural Networks and Applications",
+          "gloss": "This group encompasses various graph neural network architectures and their applications in materials science and atomistic simulations.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of graph neural network architectures and their applications in materials science and atomistic simulations, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0022",
+          "level": 1,
+          "label": "Ionic Conductivity Prediction and Screening",
+          "gloss": "This group focuses on predicting and screening materials for ionic conductivity in solid-state electrolytes and batteries.",
+          "verdict": "supported",
+          "reason": "All items listed relate to predicting and screening materials for ionic conductivity in solid-state electrolytes and batteries."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0025",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group focuses on machine learning applications for predicting melting temperatures and phase transitions in inorganic materials.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning applications for predicting melting temperatures and phase transitions in inorganic materials, directly aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0021",
+          "level": 1,
+          "label": "Machine Learning in Lithium Conductors",
+          "gloss": "This group explores machine learning applications for predicting properties and behaviors of lithium-based materials.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning applications for predicting properties and behaviors of lithium-based materials, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0016",
+          "level": 1,
+          "label": "Crystal Structure Prediction and Stability",
+          "gloss": "This group focuses on machine learning methods for predicting and assessing crystal structure stability and properties.",
+          "verdict": "supported",
+          "reason": "The items listed include various machine learning methods and frameworks specifically aimed at predicting and assessing crystal structure stability and properties."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0017",
+          "level": 1,
+          "label": "AI and High-Throughput Materials Discovery",
+          "gloss": "Explores AI applications and high-throughput methods for materials design and discovery in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of AI applications and high-throughput methods in materials design and discovery, aligning with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0015",
+          "level": 1,
+          "label": "Machine Learning in Molecular Dynamics",
+          "gloss": "This group encompasses various machine learning approaches and datasets for molecular dynamics simulations.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning approaches and datasets relevant to molecular dynamics simulations, aligning with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0018",
+          "level": 1,
+          "label": "Atomic Cluster Expansion Models",
+          "gloss": "This group encompasses various models and methods for atomic cluster expansion in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed include various models and methods related to atomic cluster expansion, confirming the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0027",
+          "level": 1,
+          "label": "Data-Driven Materials Discovery",
+          "gloss": "This group encompasses frameworks and projects aimed at accelerating materials design through data and machine learning.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples and details of frameworks and projects that utilize data and machine learning to accelerate materials design, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0013",
+          "level": 1,
+          "label": "Surface Energy and Potential Modeling",
+          "gloss": "This group focuses on methods and datasets for modeling potential energy surfaces and surface energies in materials.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific methods and datasets related to modeling potential energy surfaces and surface energies in materials, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0006",
+          "level": 1,
+          "label": "Machine Learning Interatomic Potentials",
+          "gloss": "This group focuses on the development and application of machine learning methods for interatomic potential modeling.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of the development and application of machine learning methods for interatomic potential modeling, aligning well with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0029",
+          "level": 1,
+          "label": "Machine Learning in Fracture Prediction",
+          "gloss": "This group focuses on using deep learning for predicting fracture patterns and mechanical properties in crystalline materials.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of using deep learning techniques, such as the ConvLSTM model, for predicting fracture patterns and mechanical properties in crystalline materials."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0011",
+          "level": 1,
+          "label": "Advanced Simulation Techniques in Materials Science",
+          "gloss": "This group encompasses various methods for simulating atomic transport and molecular dynamics in materials.",
+          "verdict": "supported",
+          "reason": "The items listed include various methods and techniques for simulating atomic transport and molecular dynamics, which directly align with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0030",
+          "level": 1,
+          "label": "OMat24 Dataset and Models",
+          "gloss": "A collection of datasets and models related to the OMat24 inorganic materials dataset.",
+          "verdict": "supported",
+          "reason": "Every claim in the gloss about the OMat24 dataset and models is directly supported by the items listed."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0028",
+          "level": 1,
+          "label": "Materials Property Prediction Methods",
+          "gloss": "This group focuses on benchmarking and developing machine learning methods for predicting various material properties.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of benchmarking and developing machine learning methods for predicting various material properties, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0010",
+          "level": 1,
+          "label": "Machine Learning Interatomic Potentials",
+          "gloss": "This group explores advancements and evaluations of machine learning interatomic potentials in materials science.",
+          "verdict": "supported",
+          "reason": "The items provide specific advancements and evaluations of machine learning interatomic potentials, aligning with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0019",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group covers machine learning techniques and models for predicting material properties and simulating molecular dynamics.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning techniques and models used for predicting material properties and simulating molecular dynamics, aligning with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0041",
+          "level": 1,
+          "label": "Machine Learning in Multiscale Modeling",
+          "gloss": "Explores the integration of machine learning techniques in multiscale computational modeling and optimization.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples and discussions related to the integration of machine learning techniques in multiscale computational modeling and optimization."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0024",
+          "level": 1,
+          "label": "Amorphous Carbon Modeling and Simulation",
+          "gloss": "This group focuses on machine learning and simulations of amorphous carbon structures and their properties.",
+          "verdict": "supported",
+          "reason": "All items listed pertain to machine learning and simulations of amorphous carbon structures and their properties, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0046",
+          "level": 1,
+          "label": "High-Throughput Materials Science Tools",
+          "gloss": "This group encompasses tools and standards for high-throughput materials science calculations and machine learning interatomic potentials.",
+          "verdict": "supported",
+          "reason": "Every claim in the gloss about high-throughput materials science calculations and machine learning interatomic potentials is directly supported by the items listed."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0035",
+          "level": 1,
+          "label": "Researchers in Materials Science and Machine Learning",
+          "gloss": "This group consists of authors contributing to materials science and machine learning literature.",
+          "verdict": "supported",
+          "reason": "All listed authors are known contributors to the fields of materials science and machine learning."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0033",
+          "level": 1,
+          "label": "Materials Science Researchers",
+          "gloss": "A group of researchers contributing to materials science and machine learning literature.",
+          "verdict": "vague",
+          "reason": "While many of the listed individuals are likely involved in materials science and machine learning, the gloss does not provide specific evidence or context to confirm their contributions."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0037",
+          "level": 1,
+          "label": "Materials Science and Machine Learning Researchers",
+          "gloss": "A group of researchers contributing to materials science and machine learning advancements.",
+          "verdict": "supported",
+          "reason": "All listed researchers are known for their contributions to materials science and machine learning."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0034",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group includes various machine learning models and tools applied in materials science research.",
+          "verdict": "vague",
+          "reason": "The gloss mentions 'various machine learning models and tools' but does not specify how each item relates to machine learning in materials science."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0004",
+          "level": 1,
+          "label": "Mean Absolute Error in Materials Science",
+          "gloss": "This group focuses on various Mean Absolute Error (MAE) metrics related to energy and forces in materials.",
+          "verdict": "supported",
+          "reason": "The items listed include various Mean Absolute Error metrics specifically related to energy and forces in materials, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0038",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "Explores machine learning techniques and their applications in materials science and physical sciences.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples and techniques related to machine learning applications in materials science and physical sciences, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0031",
+          "level": 1,
+          "label": "Machine Learning Models in Materials Science",
+          "gloss": "This group includes various neural network architectures and tools for materials science applications.",
+          "verdict": "overclaim",
+          "reason": "The gloss implies that all items are neural network architectures or tools specifically for materials science applications, but some items like NumPy, PyTorch, and scikit-learn are general-purpose libraries not limited to materials science."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0059",
+          "level": 1,
+          "label": "Tensor Networks and Machine Learning",
+          "gloss": "This group encompasses various tensor network architectures and their applications in materials science and machine learning.",
+          "verdict": "vague",
+          "reason": "The gloss mentions 'various tensor network architectures and their applications in materials science and machine learning,' but the items listed do not clearly specify or categorize these applications."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0048",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group encompasses methods and architectures for applying machine learning to materials science challenges.",
+          "verdict": "vague",
+          "reason": "The gloss describes a broad application of machine learning in materials science without specific claims that can be directly verified by the items listed."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0040",
+          "level": 1,
+          "label": "Machine Learning Regression Techniques",
+          "gloss": "This group encompasses various regression methods and evaluation metrics in machine learning.",
+          "verdict": "overclaim",
+          "reason": "The gloss implies a comprehensive coverage of regression methods and evaluation metrics, but includes unrelated items like classification models and dimensionality reduction techniques."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0043",
+          "level": 1,
+          "label": "Machine Learning for Material Properties",
+          "gloss": "This group focuses on clustering and predictive modeling techniques for understanding material melting temperatures and bonding characteristics.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific techniques and results related to clustering and predictive modeling for material melting temperatures and bonding characteristics, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0005",
+          "level": 1,
+          "label": "Loss Functions and Averages",
+          "gloss": "This group encompasses various loss functions and averaging techniques in materials science and machine learning.",
+          "verdict": "supported",
+          "reason": "The items listed include various loss functions and averaging techniques relevant to materials science and machine learning, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0057",
+          "level": 1,
+          "label": "Virtual Nodes and Edge Networks",
+          "gloss": "This group encompasses various structures and methods for virtual nodes and edge updates in neural networks.",
+          "verdict": "supported",
+          "reason": "The items listed include various structures and methods related to virtual nodes and edge updates in neural networks, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0001",
+          "level": 1,
+          "label": "DFT Methods and Workflows",
+          "gloss": "This group encompasses various DFT techniques, workflows, and their management in high-throughput calculations.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of DFT techniques, workflows, and management tools used in high-throughput calculations, aligning with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0045",
+          "level": 1,
+          "label": "Materials Science Machine Learning Tools",
+          "gloss": "A collection of tools and frameworks for materials data mining and machine learning applications.",
+          "verdict": "supported",
+          "reason": "The items listed include various tools and frameworks specifically designed for materials data mining and machine learning applications, which aligns with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0002",
+          "level": 1,
+          "label": "Force Prediction Models in Machine Learning",
+          "gloss": "This group encompasses various models and methods for predicting forces and energies using machine learning techniques.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples and methods related to predicting forces and energies using machine learning techniques, aligning well with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0026",
+          "level": 1,
+          "label": "Phonon Prediction Models and Techniques",
+          "gloss": "This group covers various models and methods for predicting phonon properties in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific models and methods for predicting phonon properties, aligning with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0009",
+          "level": 1,
+          "label": "Machine Learning Potentials in Materials Science",
+          "gloss": "This group focuses on advanced machine learning models for predicting material properties and atomic interactions.",
+          "verdict": "supported",
+          "reason": "All claims in the gloss about advanced machine learning models for predicting material properties and atomic interactions are directly supported by the items listed."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0036",
+          "level": 1,
+          "label": "Materials Science and Machine Learning Literature",
+          "gloss": "A collection of research contributions in materials science and machine learning.",
+          "verdict": "vague",
+          "reason": "The gloss describes a collection of research contributions in materials science and machine learning, but it does not specify the nature or relevance of the listed items to these fields."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0058",
+          "level": 1,
+          "label": "Transformers in Materials Science",
+          "gloss": "This group encompasses various transformer models and techniques applied to materials science and machine learning.",
+          "verdict": "vague",
+          "reason": "The gloss mentions 'various transformer models and techniques' but does not specify how the listed items directly relate to materials science or machine learning."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0050",
+          "level": 1,
+          "label": "Message Passing Neural Networks",
+          "gloss": "This group encompasses various techniques and architectures for message passing in neural networks.",
+          "verdict": "supported",
+          "reason": "The items listed include various techniques and architectures related to message passing in neural networks, confirming the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0007",
+          "level": 1,
+          "label": "Neural Network Potentials in Materials Science",
+          "gloss": "This group includes various neural network potentials used for modeling interactions in materials science.",
+          "verdict": "overclaim",
+          "reason": "The gloss implies that all items are neural network potentials, but several listed items, such as the Lennard-Jones potential and Finnis-Sinclair potential, are not neural network-based."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0014",
+          "level": 1,
+          "label": "Machine Learning in Catalysis and MOFs",
+          "gloss": "This group focuses on machine learning models for predicting interactions and energies in metal-organic frameworks and catalysis.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples and details about machine learning models and their applications in predicting interactions and energies in metal-organic frameworks and catalysis."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0047",
+          "level": 1,
+          "label": "Machine Learning Benchmarking Strategies",
+          "gloss": "This group focuses on methodologies and datasets for evaluating machine learning models in materials science.",
+          "verdict": "supported",
+          "reason": "The items listed include various benchmarking strategies and methodologies relevant to evaluating machine learning models in materials science, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0055",
+          "level": 1,
+          "label": "Gaussian Methods in Materials Science",
+          "gloss": "This group encompasses Gaussian quadrature techniques and Gaussian approximation potentials in materials science applications.",
+          "verdict": "supported",
+          "reason": "The items listed include specific techniques and applications related to Gaussian quadrature and Gaussian approximation potentials in materials science, which align with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0054",
+          "level": 1,
+          "label": "Spherical Harmonics in Machine Learning",
+          "gloss": "This group focuses on the application and properties of spherical harmonics in encoding and modeling data.",
+          "verdict": "supported",
+          "reason": "The items listed directly relate to the application and properties of spherical harmonics in encoding and modeling data, confirming the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0044",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group focuses on machine learning applications and performance metrics in materials science research.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples and metrics related to machine learning applications and performance in materials science, aligning with the gloss."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0012",
+          "level": 1,
+          "label": "Machine Learning in Materials Science",
+          "gloss": "This group covers various machine learning methods and their applications in materials science and computational modeling.",
+          "verdict": "supported",
+          "reason": "The items listed provide specific examples of machine learning methods and their applications in materials science, aligning with the gloss description."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0056",
+          "level": 1,
+          "label": "Descriptors in Materials Science",
+          "gloss": "This group encompasses various descriptors used for predicting material properties in machine learning.",
+          "verdict": "supported",
+          "reason": "The items listed include various descriptors used in materials science for predicting material properties, aligning with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0003",
+          "level": 1,
+          "label": "Machine Learning for Energy Predictions",
+          "gloss": "This group focuses on machine learning models and descriptors for predicting molecular energies and related properties.",
+          "verdict": "supported",
+          "reason": "All items listed pertain to machine learning models and descriptors specifically aimed at predicting molecular energies and related properties."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0023",
+          "level": 1,
+          "label": "Phase-Field Modeling and Simulations",
+          "gloss": "This group encompasses methods and calculations related to phase-field modeling and simulations in materials science.",
+          "verdict": "supported",
+          "reason": "All items listed relate to phase-field modeling and simulations in materials science, supporting the claims made in the gloss."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0051",
+          "level": 1,
+          "label": "Attention Mechanisms in Graphs",
+          "gloss": "This group encompasses various attention mechanisms applied to graph structures and crystal representations.",
+          "verdict": "supported",
+          "reason": "All items listed pertain to attention mechanisms applied to graph structures and crystal representations."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0042",
+          "level": 1,
+          "label": "Layer Normalization Techniques",
+          "gloss": "This group encompasses various methods and concepts related to layer normalization in machine learning.",
+          "verdict": "overclaim",
+          "reason": "The gloss implies a comprehensive coverage of layer normalization techniques, but includes unrelated items like Batch Normalization and preprocessing methods that do not pertain specifically to layer normalization."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0039",
+          "level": 1,
+          "label": "Uncertainty Quantification in Machine Learning",
+          "gloss": "This group focuses on methods for quantifying and managing uncertainty in machine learning models and predictions.",
+          "verdict": "supported",
+          "reason": "The items listed include various methods and concepts directly related to quantifying and managing uncertainty in machine learning models and predictions."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0008",
+          "level": 1,
+          "label": "Charge and Electrostatics in Materials",
+          "gloss": "This group focuses on charge prediction, modeling, and dynamics in materials science and machine learning contexts.",
+          "verdict": "supported",
+          "reason": "The items listed encompass various aspects of charge prediction, modeling, and dynamics in materials science, aligning well with the gloss provided."
+        },
+        {
+          "supernode_id": "sn_y2026_l1_c0032",
+          "level": 1,
+          "label": "MD-17 Chemical Compounds",
+          "gloss": "A collection of chemical compounds studied in the MD-17 dataset.",
+          "verdict": "overclaim",
+          "reason": "The items include duplicates and variations of the same compounds, which do not collectively represent a distinct set of chemical compounds studied in the MD-17 dataset."
+        }
+      ]
+    }
+  },
+  "extrinsic": {
+    "per_question": [
+      {
+        "question_id": "Q1",
+        "expected_methods": [
+          "MACE",
+          "M3GNet",
+          "CHGNet",
+          "GAP",
+          "NequIP",
+          "ACE",
+          "EquiformerV2"
+        ],
+        "drilldown": {
+          "hit_rate_5": 0.143,
+          "hit_rate_10": 0.143,
+          "hit_rate_20": 0.286,
+          "mrr": 0.087
+        },
+        "flat_baseline": {
+          "hit_rate_5": 0.143,
+          "hit_rate_10": 0.143,
+          "hit_rate_20": 0.286,
+          "mrr": 0.085
+        }
+      },
+      {
+        "question_id": "Q2",
+        "expected_methods": [
+          "DeepH",
+          "D4FT",
+          "HamGNN"
+        ],
+        "drilldown": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.333,
+          "hit_rate_20": 0.333,
+          "mrr": 0.07
+        },
+        "flat_baseline": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.333,
+          "hit_rate_20": 0.333,
+          "mrr": 0.064
+        }
+      },
+      {
+        "question_id": "Q3",
+        "expected_methods": [
+          "xDeepH",
+          "DeepH-E3"
+        ],
+        "drilldown": {
+          "hit_rate_5": 0.5,
+          "hit_rate_10": 0.5,
+          "hit_rate_20": 0.5,
+          "mrr": 0.106
+        },
+        "flat_baseline": {
+          "hit_rate_5": 0.5,
+          "hit_rate_10": 0.5,
+          "hit_rate_20": 0.5,
+          "mrr": 0.105
+        }
+      },
+      {
+        "question_id": "Q4",
+        "expected_methods": [
+          "Hessian training",
+          "VGNN",
+          "MACE-F"
+        ],
+        "drilldown": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.0,
+          "hit_rate_20": 0.0,
+          "mrr": 0.006
+        },
+        "flat_baseline": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.0,
+          "hit_rate_20": 0.0,
+          "mrr": 0.006
+        }
+      },
+      {
+        "question_id": "Q5",
+        "expected_methods": [
+          "Bead-mapping",
+          "GNN+GPP"
+        ],
+        "drilldown": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.0,
+          "hit_rate_20": 0.0,
+          "mrr": 0.0
+        },
+        "flat_baseline": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.0,
+          "hit_rate_20": 0.0,
+          "mrr": 0.0
+        }
+      },
+      {
+        "question_id": "Q6",
+        "expected_methods": [
+          "DeePMD+AL",
+          "LiFlow",
+          "MLIP descriptors"
+        ],
+        "drilldown": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.0,
+          "hit_rate_20": 0.0,
+          "mrr": 0.005
+        },
+        "flat_baseline": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.0,
+          "hit_rate_20": 0.0,
+          "mrr": 0.004
+        }
+      },
+      {
+        "question_id": "Q7",
+        "expected_methods": [
+          "GNN free energies",
+          "symbolic regression"
+        ],
+        "drilldown": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.0,
+          "hit_rate_20": 0.0,
+          "mrr": 0.002
+        },
+        "flat_baseline": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.0,
+          "hit_rate_20": 0.0,
+          "mrr": 0.001
+        }
+      },
+      {
+        "question_id": "Q8",
+        "expected_methods": [
+          "ConvLSTM",
+          "GNN stress fields"
+        ],
+        "drilldown": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.5,
+          "hit_rate_20": 0.5,
+          "mrr": 0.056
+        },
+        "flat_baseline": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.5,
+          "hit_rate_20": 0.5,
+          "mrr": 0.056
+        }
+      },
+      {
+        "question_id": "Q9",
+        "expected_methods": [
+          "E(3)-equivariant GNNs",
+          "physics-informed",
+          "NequIP"
+        ],
+        "drilldown": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.0,
+          "hit_rate_20": 0.0,
+          "mrr": 0.002
+        },
+        "flat_baseline": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.0,
+          "hit_rate_20": 0.0,
+          "mrr": 0.004
+        }
+      },
+      {
+        "question_id": "Q10",
+        "expected_methods": [
+          "GNNs + ACE descriptors",
+          "SchNet"
+        ],
+        "drilldown": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.0,
+          "hit_rate_20": 0.0,
+          "mrr": 0.003
+        },
+        "flat_baseline": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.0,
+          "hit_rate_20": 0.0,
+          "mrr": 0.002
+        }
+      },
+      {
+        "question_id": "Q11",
+        "expected_methods": [
+          "CE\u2192MC\u2192NN\u2192PF",
+          "hybrid frameworks"
+        ],
+        "drilldown": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.0,
+          "hit_rate_20": 0.0,
+          "mrr": 0.0
+        },
+        "flat_baseline": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.0,
+          "hit_rate_20": 0.0,
+          "mrr": 0.0
+        }
+      },
+      {
+        "question_id": "Q12",
+        "expected_methods": [
+          "MACE",
+          "NequIP",
+          "CHGNet",
+          "M3GNet",
+          "SevenNet",
+          "GAP",
+          "DeePMD",
+          "MatterSim",
+          "Orb",
+          "eSEN",
+          "PET",
+          "UMA",
+          "EquiformerV2"
+        ],
+        "drilldown": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.154,
+          "hit_rate_20": 0.154,
+          "mrr": 0.027
+        },
+        "flat_baseline": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.154,
+          "hit_rate_20": 0.154,
+          "mrr": 0.029
+        }
+      },
+      {
+        "question_id": "Q13",
+        "expected_methods": [
+          "CGCNN",
+          "SchNet",
+          "MEGNet",
+          "M3GNet",
+          "NequIP",
+          "MACE",
+          "CHGNet",
+          "EquiformerV2"
+        ],
+        "drilldown": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.125,
+          "hit_rate_20": 0.125,
+          "mrr": 0.022
+        },
+        "flat_baseline": {
+          "hit_rate_5": 0.0,
+          "hit_rate_10": 0.0,
+          "hit_rate_20": 0.125,
+          "mrr": 0.022
+        }
+      },
+      {
+        "question_id": "Q14",
+        "expected_methods": [
+          "Matbench Discovery",
+          "Matbench",
+          "JARVIS-DFT",
+          "Materials Project",
+          "MPtrj",
+          "OQMD",
+          "AFLOW",
+          "Alexandria",
+          "GNoME",
+          "WBM",
+          "OMat24"
+        ],
+        "drilldown": {
+          "hit_rate_5": 0.091,
+          "hit_rate_10": 0.091,
+          "hit_rate_20": 0.091,
+          "mrr": 0.056
+        },
+        "flat_baseline": {
+          "hit_rate_5": 0.091,
+          "hit_rate_10": 0.091,
+          "hit_rate_20": 0.091,
+          "mrr": 0.056
+        }
+      }
+    ],
+    "aggregate": {
+      "n_questions": 14,
+      "drilldown": {
+        "hit_rate_5": 0.052,
+        "hit_rate_10": 0.132,
+        "hit_rate_20": 0.142,
+        "mrr": 0.032
+      },
+      "flat_baseline": {
+        "hit_rate_5": 0.052,
+        "hit_rate_10": 0.123,
+        "hit_rate_20": 0.142,
+        "mrr": 0.031
+      }
+    }
+  }
+}

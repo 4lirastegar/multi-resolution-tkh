@@ -1,0 +1,15 @@
+# Core scientific stack
+numpy==2.0.2
+scipy==1.15.2
+scikit-learn==1.4.2
+
+# Sentence embeddings (MiniLM for clustering, mpnet for evaluation)
+sentence-transformers==6.0.0
+
+# OpenAI API (GPT-4o-mini for labelling and faithfulness judge)
+openai==3.3.1
+
+# Utilities
+python-dotenv==1.2.3
+tqdm==4.67.1
+matplotlib==3.11.1

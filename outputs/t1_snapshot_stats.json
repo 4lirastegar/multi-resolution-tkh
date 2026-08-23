@@ -1,0 +1,230 @@
+{
+  "snapshots": {
+    "2020": {
+      "n_nodes": 1527,
+      "n_edges": 405,
+      "node_types": {
+        "article": 16,
+        "technique": 247,
+        "task": 197,
+        "metric": 34,
+        "claim": 179,
+        "component": 221,
+        "cited_work": 114,
+        "method": 138,
+        "problem": 146,
+        "author": 105,
+        "dataset": 87,
+        "future_topic": 43
+      },
+      "relation_types": {
+        "addresses": 16,
+        "evaluated_on": 92,
+        "extends": 16,
+        "solves": 16,
+        "uses_component": 16,
+        "uses_technique": 16,
+        "presents": 16,
+        "claims": 179,
+        "cites": 9,
+        "authored_by": 16,
+        "proposes_future_work": 13
+      },
+      "edge_year_span": [
+        1997,
+        2020
+      ],
+      "arity": {
+        "min": 2,
+        "max": 45,
+        "mean": 5.38,
+        "median": 3,
+        "share_arity_gt_2": 0.731,
+        "histogram_coarse": {
+          "2": 109,
+          "3-5": 205,
+          "6-10": 41,
+          "11-20": 29,
+          ">20": 21
+        }
+      }
+    },
+    "2022": {
+      "n_nodes": 2200,
+      "n_edges": 589,
+      "node_types": {
+        "article": 23,
+        "technique": 345,
+        "cited_work": 214,
+        "task": 263,
+        "metric": 49,
+        "claim": 259,
+        "component": 309,
+        "method": 200,
+        "problem": 198,
+        "author": 131,
+        "dataset": 142,
+        "future_topic": 67
+      },
+      "relation_types": {
+        "addresses": 22,
+        "evaluated_on": 143,
+        "extends": 22,
+        "solves": 22,
+        "uses_component": 22,
+        "uses_technique": 22,
+        "presents": 22,
+        "claims": 259,
+        "cites": 14,
+        "authored_by": 22,
+        "proposes_future_work": 19
+      },
+      "edge_year_span": [
+        1997,
+        2022
+      ],
+      "arity": {
+        "min": 2,
+        "max": 59,
+        "mean": 5.52,
+        "median": 3,
+        "share_arity_gt_2": 0.762,
+        "histogram_coarse": {
+          "2": 140,
+          "3-5": 315,
+          "6-10": 59,
+          "11-20": 46,
+          ">20": 29
+        }
+      },
+      "growth_vs_previous": {
+        "new_nodes": 673,
+        "new_edges": 184,
+        "node_growth_pct": 44.1,
+        "edge_growth_pct": 45.4
+      }
+    },
+    "2024": {
+      "n_nodes": 4184,
+      "n_edges": 1063,
+      "node_types": {
+        "technique": 673,
+        "task": 517,
+        "article": 39,
+        "component": 608,
+        "cited_work": 411,
+        "dataset": 214,
+        "metric": 73,
+        "claim": 505,
+        "method": 358,
+        "author": 250,
+        "problem": 415,
+        "future_topic": 121
+      },
+      "relation_types": {
+        "addresses": 37,
+        "evaluated_on": 241,
+        "extends": 37,
+        "solves": 37,
+        "uses_component": 37,
+        "uses_technique": 37,
+        "presents": 38,
+        "claims": 505,
+        "cites": 25,
+        "authored_by": 38,
+        "proposes_future_work": 31
+      },
+      "edge_year_span": [
+        1997,
+        2024
+      ],
+      "arity": {
+        "min": 2,
+        "max": 65,
+        "mean": 5.95,
+        "median": 3,
+        "share_arity_gt_2": 0.802,
+        "histogram_coarse": {
+          "2": 210,
+          "3-5": 611,
+          "6-10": 95,
+          "11-20": 78,
+          ">20": 69
+        }
+      },
+      "growth_vs_previous": {
+        "new_nodes": 1984,
+        "new_edges": 474,
+        "node_growth_pct": 90.2,
+        "edge_growth_pct": 80.5
+      }
+    },
+    "2026": {
+      "n_nodes": 5798,
+      "n_edges": 1429,
+      "node_types": {
+        "cited_work": 580,
+        "component": 855,
+        "task": 732,
+        "dataset": 259,
+        "technique": 962,
+        "method": 448,
+        "problem": 634,
+        "claim": 690,
+        "author": 318,
+        "future_topic": 178,
+        "metric": 90,
+        "article": 52
+      },
+      "relation_types": {
+        "addresses": 51,
+        "evaluated_on": 301,
+        "extends": 50,
+        "solves": 51,
+        "uses_component": 50,
+        "uses_technique": 51,
+        "presents": 52,
+        "claims": 690,
+        "cites": 37,
+        "authored_by": 51,
+        "proposes_future_work": 45
+      },
+      "edge_year_span": [
+        1997,
+        2026
+      ],
+      "arity": {
+        "min": 2,
+        "max": 65,
+        "mean": 6.25,
+        "median": 3,
+        "share_arity_gt_2": 0.805,
+        "histogram_coarse": {
+          "2": 279,
+          "3-5": 814,
+          "6-10": 124,
+          "11-20": 107,
+          ">20": 105
+        }
+      },
+      "growth_vs_previous": {
+        "new_nodes": 1614,
+        "new_edges": 366,
+        "node_growth_pct": 38.6,
+        "edge_growth_pct": 34.4
+      }
+    }
+  },
+  "data_quality": {
+    "edges_with_missing_member_ids": 0,
+    "edges_without_valid_year": 0,
+    "isolated_nodes_never_in_any_edge": 0,
+    "nodes_with_empty_surface_form": 0,
+    "duplicate_(type,surface_form)_extra_nodes": 0,
+    "nodes_without_valid_year": 0,
+    "node_year_range": [
+      1901,
+      2026
+    ]
+  }
+}
