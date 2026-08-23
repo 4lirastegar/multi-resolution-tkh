@@ -79,9 +79,17 @@ def cross_snapshot_stability(
     hierarchies: dict[int, dict],
     years: list[int],
     level: int = 0,
+    n_bootstrap: int = 500,
+    seed: int = 42,
 ) -> list[dict]:
-    """ARI between consecutive snapshots on their shared node set."""
+    """ARI between consecutive snapshots on their shared node set.
+
+    Bootstrap resampling over shared nodes gives 95% CIs that match the
+    reporting style of perturbation_stability above.
+    """
     results = []
+    rng = np.random.default_rng(seed)
+
     for i in range(1, len(years)):
         y_from, y_to = years[i - 1], years[i]
         h_from = hierarchies.get(y_from)
@@ -97,14 +105,28 @@ def cross_snapshot_stability(
 
         labels_from = _partition_vector(h_from, shared_nodes, level)
         labels_to = _partition_vector(h_to, shared_nodes, level)
-        ari = adjusted_rand_score(labels_from, labels_to)
+        point_ari = float(adjusted_rand_score(labels_from, labels_to))
+
+        # Bootstrap CI: resample shared nodes with replacement
+        n = len(shared_nodes)
+        boot_aris: list[float] = []
+        for _ in range(n_bootstrap):
+            idx = rng.integers(0, n, size=n)
+            boot_aris.append(
+                float(adjusted_rand_score(labels_from[idx], labels_to[idx]))
+            )
+        ci95 = (
+            round(float(np.percentile(boot_aris, 2.5)), 4),
+            round(float(np.percentile(boot_aris, 97.5)), 4),
+        )
 
         results.append({
             "year_from": y_from,
             "year_to": y_to,
             "level": level,
             "n_shared_nodes": len(shared_nodes),
-            "ari": round(float(ari), 4),
+            "ari": round(point_ari, 4),
+            "ari_95ci_bootstrap": ci95,
         })
 
     return results

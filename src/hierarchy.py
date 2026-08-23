@@ -145,6 +145,27 @@ def build_hierarchy(
         level_budgets = LEVEL_BUDGETS
 
     affinity, node_ids = build_affinity(nodes_by_id, hyperedges, embeddings)
+
+    # Warm-start: add a small affinity bonus between nodes that were in the
+    # same top-level cluster in the previous snapshot.  This biases the
+    # dendrogram toward the previous partition in stable regions without
+    # hard-constraining it.  warm_labels is {node_id: supernode_id} from
+    # the caller (level-0 mapping of the immediately preceding snapshot).
+    if warm_labels:
+        node_to_idx = {nid: i for i, nid in enumerate(node_ids)}
+        bonus = 0.05
+        sn_to_idxs: dict[str, list[int]] = defaultdict(list)
+        for nid, snid in warm_labels.items():
+            if nid in node_to_idx:
+                sn_to_idxs[snid].append(node_to_idx[nid])
+        for idxs in sn_to_idxs.values():
+            if len(idxs) > 1:
+                arr = np.array(idxs)
+                affinity[np.ix_(arr, arr)] = np.minimum(
+                    1.0, affinity[np.ix_(arr, arr)] + bonus
+                )
+        np.fill_diagonal(affinity, 1.0)
+
     n = len(node_ids)
 
     if n < 2:

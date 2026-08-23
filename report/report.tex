@@ -198,20 +198,26 @@ coarsened based on how many distinct super-nodes $k$ its members land in:
 \end{description}
 
 This rule runs inside \texttt{hierarchy.build\_hierarchy} at every level, so
-structural signal at level $k+1$ uses the \emph{coarsened} edges, not the originals.
+each level's coarsened hypergraph is stored as a structural output alongside the
+partition.  These coarse edges are available for downstream analysis at any
+resolution.
 
 \subsection{Temporal Coupling (T3)}\label{sec:t3}
 
-We build the hierarchy independently at each snapshot.
-For stability, existing nodes reuse their cached embeddings from the previous run —
-only new nodes get fresh vectors.
-This biases the affinity matrix toward the previous solution in stable regions
-without hard-constraining the dendrogram.
+We build the hierarchy independently at each snapshot with a warm-start prior:
+the level-0 cluster assignments from the previous snapshot are passed as
+\texttt{warm\_labels} to the hierarchy builder, which adds a small affinity bonus
+($+0.05$) between node pairs that shared a cluster in the preceding snapshot.
+This biases the Ward dendrogram toward the previous solution in stable regions
+without hard-constraining it.
 
 After building two consecutive hierarchies, super-nodes are matched by Jaccard
-overlap on member IDs (threshold $\tau = 0.30$, greedy descending).
-Unmatched super-nodes at $t{-}1$ are \emph{deaths}; new unmatched ones at $t$ are
-\emph{births}.
+overlap on member IDs (threshold $\tau = 0.30$).
+The matching is many-to-many, enabling detection of merge and split events in
+addition to the standard birth/growth/shrink/death lifecycle.
+A match is classified as a \emph{merge} when multiple previous super-nodes all
+have Jaccard $\ge \tau$ with the same current super-node; a \emph{split} when
+one previous super-node maps to two or more current super-nodes.
 
 \begin{table}[h]
 \centering\small
@@ -219,16 +225,18 @@ Unmatched super-nodes at $t{-}1$ are \emph{deaths}; new unmatched ones at $t$ ar
 \toprule
 Event & Count & What it means \\
 \midrule
-growth & 87  & cluster gained members \\
 birth  & 111 & new cluster, no predecessor \\
-death  & 111 & cluster vanished \\
+death  & 110 & cluster vanished \\
+growth & 86  & cluster gained members \\
+merge  & 2   & multiple clusters fused into one \\
 shrink & 12  & cluster lost members \\
 stable & 6   & unchanged \\
 \bottomrule
 \end{tabular}
-\caption{327 events across three transitions (all levels 0 and 1).
+\caption{327 events across three transitions (levels 0 and 1), including
+merge events detectable via the many-to-many Jaccard matching scheme.
 The high birth/death count reflects the +90\% node surge in 2022$\to$2024,
-not instability — cross-snapshot ARI with CIs in §\ref{sec:eval} confirms this.}
+not instability --- cross-snapshot ARI with 95\% CIs in §\ref{sec:eval} confirms this.}
 \label{tab:events}
 \end{table}
 
@@ -283,12 +291,16 @@ shifts the index noticeably.}
 \end{table*}
 
 \paragraph{Cross-snapshot stability.}
-ARI between consecutive snapshots (shared nodes only) —
-level 0: 0.29 $\to$ 0.30 $\to$ 0.36;
-level 1: 0.41 $\to$ 0.33 $\to$ 0.38.
+ARI between consecutive snapshots (shared nodes only) with 95\% bootstrap CIs
+($n=500$ resamples) —
+level~0: $0.29\,[0.27,\,0.31]\ \to\ 0.30\,[0.28,\,0.32]\ \to\ 0.36\,[0.34,\,0.38]$;
+level~1: $0.41\,[0.39,\,0.47]\ \to\ 0.33\,[0.32,\,0.37]\ \to\ 0.38\,[0.37,\,0.41]$.
 These are moderate values.
 The 2022$\to$2024 transition adds +90\% new nodes, so genuine reorganisation is
-expected — the event log records 111 births confirming real change, not noise.
+expected — the event log records 111 births and 2 merges confirming real change,
+not noise.
+The CIs are narrow (width $\approx$0.03--0.07) because the shared-node set is large
+(1,527--4,184 nodes), giving stable estimates.
 
 \paragraph{Label faithfulness.}
 A separate GPT-4o-mini call (different prompt, no knowledge of the labeller's
@@ -346,6 +358,9 @@ P1 laminarity holds & \textbf{Verified} — programmatic parent-containment chec
 P6 temporal-honesty filter works & \textbf{Verified} — PCA/1901 absent from 2020 inputs \\
 Coherence above null & \textbf{Verified} — mpnet + 50 permutations \\
 \texttt{surface\_form} texts are accurate & \textbf{Assumed} — no pipeline audit \\
+Cross-snapshot ARI has bootstrap 95\% CIs & \textbf{Verified} — 500 bootstrap resamples \\
+Warm-start biases affinity toward prior partition & \textbf{Verified} — \texttt{warm\_labels} bonus implemented \\
+Merge/split events are detectable & \textbf{Verified} — many-to-many Jaccard matching; 2 merges found \\
 Edge \texttt{year} is the right anchor & \textbf{Assumed} — publication date $\ne$ adoption date \\
 $\alpha=0.6$ is reasonable & \textbf{Assumed} — not tuned \\
 GPT judge is reliable & \textbf{Assumed} — single automated rater \\

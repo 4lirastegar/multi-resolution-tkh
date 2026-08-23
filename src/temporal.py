@@ -49,6 +49,8 @@ def match_supernodes(
 ) -> list[tuple[str | None, str | None, float]]:
     """Return list of (prev_id, curr_id, jaccard) matches for one level.
 
+    Supports many-to-one (merge) and one-to-many (split) matches in addition
+    to the standard 1-to-1 growth/shrink/stable cases.
     prev_id or curr_id may be None for birth/death events.
     """
     prev = [s for s in prev_supernodes if s["level"] == level]
@@ -57,29 +59,65 @@ def match_supernodes(
     prev_sets = {s["id"]: set(s["members"]) for s in prev}
     curr_sets = {s["id"]: set(s["members"]) for s in curr}
 
-    # Greedy matching by descending Jaccard
-    scores = []
+    # All (prev, curr) pairs above threshold — no 1-to-1 exclusion yet
+    all_pairs: list[tuple[str, str, float]] = []
     for pid, pset in prev_sets.items():
         for cid, cset in curr_sets.items():
             j = jaccard(pset, cset)
             if j >= threshold:
-                scores.append((pid, cid, j))
-    scores.sort(key=lambda x: -x[2])
+                all_pairs.append((pid, cid, j))
 
-    matched_prev, matched_curr = set(), set()
-    matches = []
-    for pid, cid, j in scores:
+    # Build adjacency maps
+    prev_to_curr: dict[str, list[str]] = defaultdict(list)
+    curr_to_prev: dict[str, list[str]] = defaultdict(list)
+    for pid, cid, _ in all_pairs:
+        prev_to_curr[pid].append(cid)
+        curr_to_prev[cid].append(pid)
+
+    matched_prev: set[str] = set()
+    matched_curr: set[str] = set()
+    matches: list[tuple[str | None, str | None, float]] = []
+
+    # Detect merges: multiple prev → one curr
+    for cid, pids in curr_to_prev.items():
+        if len(pids) > 1:
+            for pid in pids:
+                j = jaccard(prev_sets[pid], curr_sets[cid])
+                matches.append((pid, cid, j))
+                matched_prev.add(pid)
+            matched_curr.add(cid)
+
+    # Detect splits: one prev → multiple curr (skip already matched)
+    for pid, cids in prev_to_curr.items():
+        if pid in matched_prev:
+            continue
+        remaining = [c for c in cids if c not in matched_curr]
+        if len(remaining) > 1:
+            for cid in remaining:
+                j = jaccard(prev_sets[pid], curr_sets[cid])
+                matches.append((pid, cid, j))
+                matched_curr.add(cid)
+            matched_prev.add(pid)
+
+    # Remaining: greedy 1-to-1 for growth / shrink / stable
+    remaining_scores = [
+        (pid, cid, j) for pid, cid, j in all_pairs
+        if pid not in matched_prev and cid not in matched_curr
+    ]
+    remaining_scores.sort(key=lambda x: -x[2])
+    for pid, cid, j in remaining_scores:
         if pid not in matched_prev and cid not in matched_curr:
             matches.append((pid, cid, j))
             matched_prev.add(pid)
             matched_curr.add(cid)
 
+    # Unmatched prev → deaths; unmatched curr → births
     for pid in prev_sets:
         if pid not in matched_prev:
-            matches.append((pid, None, 0.0))   # death
+            matches.append((pid, None, 0.0))
     for cid in curr_sets:
         if cid not in matched_curr:
-            matches.append((None, cid, 0.0))   # birth
+            matches.append((None, cid, 0.0))
 
     return matches
 

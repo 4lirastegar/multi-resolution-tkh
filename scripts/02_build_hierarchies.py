@@ -32,6 +32,7 @@ if __name__ == "__main__":
     meta, nodes_by_id, hyperedges = load_tkh()
 
     hierarchies: dict[int, dict] = {}
+    prev_hierarchy: dict | None = None
 
     for year in SNAPSHOT_YEARS:
         print(f"\n=== Snapshot ≤{year} ===")
@@ -41,12 +42,19 @@ if __name__ == "__main__":
         print("  Computing embeddings …")
         embeddings = get_clustering_embeddings(nodes)
 
+        # Pass the level-0 mapping from the previous snapshot as a warm-start
+        # prior so that stable regions are biased toward their previous cluster.
+        warm = None
+        if prev_hierarchy is not None:
+            warm = prev_hierarchy["node_to_level_supernode"].get("0")
+
         print("  Building hierarchy …")
         h = build_hierarchy(
             nodes_by_id=nodes,
             hyperedges=edges,
             embeddings=embeddings,
             snapshot_year=year,
+            warm_labels=warm,
         )
 
         n_per_level = {}
@@ -63,6 +71,7 @@ if __name__ == "__main__":
                 print(f"    [L0] {sn['label'][:60]}")
 
         hierarchies[year] = h
+        prev_hierarchy = h
         save_hierarchy(h, year)
 
     print("\n=== Building temporal event log ===")

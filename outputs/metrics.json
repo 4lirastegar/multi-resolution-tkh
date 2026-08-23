@@ -315,21 +315,33 @@
           "year_to": 2022,
           "level": 0,
           "n_shared_nodes": 1527,
-          "ari": 0.2896
+          "ari": 0.2896,
+          "ari_95ci_bootstrap": [
+            0.2706,
+            0.3149
+          ]
         },
         {
           "year_from": 2022,
           "year_to": 2024,
           "level": 0,
           "n_shared_nodes": 2200,
-          "ari": 0.2993
+          "ari": 0.2993,
+          "ari_95ci_bootstrap": [
+            0.2794,
+            0.3246
+          ]
         },
         {
           "year_from": 2024,
           "year_to": 2026,
           "level": 0,
           "n_shared_nodes": 4184,
-          "ari": 0.3559
+          "ari": 0.3559,
+          "ari_95ci_bootstrap": [
+            0.3404,
+            0.3761
+          ]
         }
       ],
       "1": [
@@ -338,21 +350,33 @@
           "year_to": 2022,
           "level": 1,
           "n_shared_nodes": 1527,
-          "ari": 0.4127
+          "ari": 0.4127,
+          "ari_95ci_bootstrap": [
+            0.3944,
+            0.4659
+          ]
         },
         {
           "year_from": 2022,
           "year_to": 2024,
           "level": 1,
           "n_shared_nodes": 2200,
-          "ari": 0.3301
+          "ari": 0.3301,
+          "ari_95ci_bootstrap": [
+            0.3193,
+            0.3659
+          ]
         },
         {
           "year_from": 2024,
           "year_to": 2026,
           "level": 1,
           "n_shared_nodes": 4184,
-          "ari": 0.3837
+          "ari": 0.3837,
+          "ari_95ci_bootstrap": [
+            0.37,
+            0.4094
+          ]
         }
       ]
     }
