@@ -27,7 +27,8 @@ organised into 12$\to$60$\to$300$\to$leaf super-nodes at four time snapshots
 ($\leq$2020, 2022, 2024, 2026).
 The method combines sentence-embedding similarity ($\alpha=0.6$) with
 arity-weighted co-occurrence ($0.4$) and uses Ward-linkage agglomerative clustering.
-Hyper-edges are coarsened natively at every level — no pairwise projection.
+Hyper-edges are coarsened natively at every level; the structural clustering signal
+uses arity-normalised co-membership ($|M(e)|^{-1}$) rather than flat pairwise expansion.
 Temporal stability is maintained by reusing cached embeddings for existing nodes
 and tracking 327 lifecycle events (birth/growth/death/\ldots) via Jaccard matching.
 Coherence, measured with an \emph{independent} embedding model (mpnet) to avoid
@@ -69,8 +70,9 @@ $V(t)$ satisfying:
 $k{-}1$;
 \textbf{P2} size budget — $|P_0|\le12$, $|P_1|\le60$, $|P_2|\le300$ (hard limits);
 \textbf{P3} semantic coherence — members share meaning, not just co-occurrence;
-\textbf{P4} hyper-edge fidelity — coarsening works on the hypergraph directly,
-never on pairwise projections.
+\textbf{P4} hyper-edge fidelity — hyper-edges are coarsened as single units at
+every level; the structural affinity uses arity-normalised co-membership
+($|M(e)|^{-1}$, not flat clique expansion).
 The method maximises the combined affinity:
 \begin{equation}
   A(u,v) = \alpha \cdot \cos\!\bigl(\phi(u),\phi(v)\bigr)
@@ -344,7 +346,13 @@ We would ship the drill-down variant — it is never worse and gives users a top
 map to navigate.
 
 % ─────────────────────────────────────────────────────────────
+\clearpage
 \section{Verified vs.\ Assumed}\label{sec:verified}
+
+Table~\ref{tab:verified} distinguishes claims we verified empirically or
+programmatically from those we left as stated assumptions.
+Flagging assumptions explicitly is a deliberate choice: it makes the
+limits of the work visible and prevents over-reading the results.
 
 \begin{table}[h]
 \centering\small\setlength{\tabcolsep}{4pt}
@@ -368,6 +376,7 @@ Jaccard $\tau=0.30$ is correct & \textbf{Assumed} — heuristic, not swept \\
 \bottomrule
 \end{tabular}
 \caption{What we verified (with evidence) vs.\ what we assumed (with acknowledged risk).}
+\label{tab:verified}
 \end{table}
 
 % ─────────────────────────────────────────────────────────────
