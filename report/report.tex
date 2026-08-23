@@ -79,8 +79,10 @@ The method maximises the combined affinity:
           + (1-\alpha)\sum_{e \ni u,v} |M(e)|^{-1}, \quad \alpha = 0.6
   \label{eq:affinity}
 \end{equation}
-where $\phi$ are MiniLM sentence embeddings and the second term is
-arity-weighted co-occurrence (normalised to $[0,1]$).
+where $\phi$ are MiniLM sentence embeddings and the second term is our
+$1/|M(e)|$ arity-normalised co-occurrence (normalised to $[0,1]$; note this
+differs from Chodrow et al.'s $1/(|e|-1)$ — a deliberate design choice to
+dampen large edges rather than preserve node degree).
 \end{problem}
 
 \paragraph{Why $\alpha=0.6$.}
@@ -115,9 +117,11 @@ partitions but requires pairwise graphs and gives no laminar guarantee.
 We borrow the resolution-sweep idea but enforce laminarity via a single dendrogram.
 
 \textbf{Hypergraph clustering.}
-Chodrow et al.~\cite{chodrow2021hypergraph} propose an HSBM with arity-weighted
-co-occurrence; we adopt their $|M(e)|^{-1}$ weighting and add a semantic signal
-on top.
+Chodrow et al.~\cite{chodrow2021hypergraph} develop a degree-corrected stochastic
+block model and modularity objective for hypergraphs with heterogeneous edge sizes,
+showing edge-size-aware treatment outperforms dyadic projections.
+Inspired by this, we use a $1/|M(e)|$ co-membership signal combined with semantic
+similarity (our design; their clique-projection baseline uses $1/(|e|-1)$).
 
 \textbf{Graph coarsening and temporal communities.}
 Loukas~\cite{loukas2019coarsening} motivates affinity-weighted merging via spectral
