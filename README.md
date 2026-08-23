@@ -1,7 +1,5 @@
 # Multi-Resolution Semantic Abstraction over an Evolving Knowledge Hypergraph
 
-PhD assessment submission for Constructor Knowledge Labs.
-
 Builds a temporally stable, multi-resolution hierarchy over a Temporal Knowledge
 Hypergraph (TKH) of materials-science / ML-interatomic-potentials literature —
 52 papers, 5,798 nodes, 1,429 hyper-edges — at four time snapshots (≤2020, 2022,
@@ -42,7 +40,7 @@ report/
   report.pdf            # 5-page write-up
   report.tex            # LaTeX source
 
-data/                   # TKH export — NOT included (provided by CKL, see data/README.md)
+data/                   # TKH export — NOT included (see data/README.md)
 ```
 
 ---
