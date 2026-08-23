@@ -13,7 +13,7 @@
 \newtheorem{problem}{Problem}
 
 \title{\textbf{Multi-Resolution Semantic Abstraction\\over an Evolving Knowledge Hypergraph}}
-\author{Ali Rastegar Mojarad \\ \small Constructor Knowledge Labs --- PhD Assessment}
+\author{Ali Rastegar Mojarad \\ \small Constructor Knowledge Labs}
 \date{\today}
 
 \begin{document}
@@ -37,6 +37,11 @@ Label over-claim rate is 1.4–8.3\% (GPT-4o-mini blind judge).
 Drill-down retrieval on the 17-question benchmark slightly beats flat search
 (HR@10: 0.132 vs.\ 0.123); the main value is navigability, not raw recall.
 \end{abstract}
+
+\begin{center}
+  \small Code and data: \url{https://github.com/4lirastegar/multi-resolution-tkh}
+\end{center}
+
 
 % ─────────────────────────────────────────────────────────────
 \section{Problem Statement}\label{sec:formal}
@@ -148,11 +153,9 @@ isolated nodes (checked automatically in \texttt{data\_loading.data\_quality\_re
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=0.49\linewidth]{figures/t1_snapshots.pdf}\hfill
-  \includegraphics[width=0.49\linewidth]{figures/t2_dendrogram_cuts.pdf}
-  \caption{Left: node counts by type and hyper-edge arity distribution per snapshot.
-  Right: illustrative dendrogram — three horizontal cuts yield the three hierarchy
-  levels (12 / 60 / 300 clusters); actual data has 5,798 leaves.}
+  \includegraphics[width=\linewidth]{figures/t1_snapshots.pdf}
+  \caption{Node counts by type (left) and hyper-edge arity distribution (right) per snapshot.
+  Arity $>$2 dominates (73–81\%), confirming that pairwise projection would discard most relational structure.}
   \label{fig:overview}
 \end{figure}
 
@@ -166,8 +169,7 @@ Ward-linkage agglomerative clustering is applied to $D = 1-A$ using
 \texttt{scipy.cluster.hierarchy.linkage} (seed 0).
 The resulting dendrogram is cut three times with \texttt{fcluster(criterion=maxclust)}
 to get $|P_0|\le12$, $|P_1|\le60$, $|P_2|\le300$.
-Because all cuts come from the same tree, laminarity (P1) holds by construction
-(Figure~\ref{fig:overview}, right).
+Because all cuts come from the same tree, laminarity (P1) holds by construction.
 
 The 2026 snapshot yields 12 top-level clusters.
 Notable ones: ``Equivariant Neural Networks in Materials Science'',
